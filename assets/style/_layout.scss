@@ -43,7 +43,6 @@ a, button, .btn-link {
 
 .container {
   padding: 0 em(15);
-
   .row {
     margin: 0 em(-25);
 
@@ -119,8 +118,9 @@ a, button, .btn-link {
 }
 
 h1, .h1 {
-  font-weight: 500;
-  line-height: 1.07143;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: em(3);
 }
 
 h2, .h2 {
@@ -222,34 +222,31 @@ p {
 }
 
 .btn {
-  font-size: em(24);
-  position: relative;
-  border: 2px solid $grey;
+  min-height: em(60);
+  display: inline-block;
   @include transitions(0.5s);
   &:not(.dropdown-toggle) {
-    padding: em(12) em(30);
-    height: em(50);
     @include borderRadius(0);
     span {
       position: relative;
       z-index: 1;
-      font-weight: 500;
+      font-weight: 600;
+      font-size: em(24);
+      line-height: 1.5;
+      /* identical to box height */
+      text-align: center;
+      color: #000000;
     }
   }
 
   &.btn-primary {
-    color: $white;
-    border: 2px solid $primary;
+    background: #F2C94C;
+    box-shadow: 0px 4px 54px rgba(81, 81, 81, 0.25);
+    border-radius: 12px;
+    padding: em(13) em(48) em(11);
+    font-size: em(16);
   }
 
-  &.btn-outline-info{
-    border-color: $info;
-  }
-
-  &.btn-black {
-    color: $white;
-    background: $grey;
-  }
 }
 
 .btn-link {
@@ -275,7 +272,7 @@ p {
 }
 
 .container {
-  max-width: 94%;
+  max-width: 82%;
 }
 
 .fw-700 {
@@ -301,20 +298,20 @@ p {
 // Laptops large devices (desktops, 1600px and up)
 @media (min-width: 1700px) and (max-width: 1899.99px) {
   body {
-    font-size: em(14);
+    //font-size: em(14);
   }
 }
 
 // Laptops large devices (desktops, 1600px and up)
 @media (min-width: 1600px) and (max-width: 1699.98px) {
   body {
-    font-size: em(14);
+    //font-size: em(14);
   }
 }
 
 @media (min-width: 1400px) and (max-width: 1599.98px) {
   body {
-    font-size: em(13);
+    font-size: em(16);
   }
 }
 
@@ -322,7 +319,7 @@ p {
 @media (min-width: 1200px) and (max-width: 1399.98px) {
   body {
     //font-size: em(12);
-    font-size: 0.7em;
+    //font-size: 0.7em;
   }
 }
 
@@ -340,12 +337,6 @@ p {
       }
     }
 
-    &.btn-black {
-      &:hover {
-        background: $white;
-        color: $grey;
-      }
-    }
   }
   .btn-link {
     &:hover, &.active {
@@ -393,23 +384,6 @@ p {
   .container {
     max-width: 94%;
   }
-  h1, .h1{}
-  h2, .h2{
-    font-size: em(62);
-  }
-  h3, .h3 {
-    font-size: em(44);
-  }
-  h4, .h4{
-    font-size: em(40);
-  }
-  h5, .h5 {
-    font-size: em(32);
-  }
-  h6, .h6{}
-  p{
-    font-size: em(20);
-  }
 }
 
 // Medium devices (tablets, 768px and up)
@@ -442,21 +416,6 @@ p {
   }
   .container {
     max-width: 96%;
-  }
-  h1, .h1 {
-    font-size: em(72);
-  }
-  h2, .h2 {
-    font-size: em(60);
-  }
-  h3, .h3 {
-    font-size: em(50);
-  }
-  h4, .h4{
-    font-size: em(40);
-  }
-  h5, .h5{
-    font-size: em(30);
   }
 }
 
@@ -527,28 +486,6 @@ p {
       }
     }
   }
-  h1, .h1 {
-    font-size: em(40);
-  }
-  h2, .h2 {
-    font-size: em(56);
-    span{
-      display: block;
-    }
-  }
-  h3, .h3 {
-    font-size: em(42);
-    letter-spacing: 0;
-  }
-  h4, .h4 {
-    font-size: em(36);
-  }
-  h5, .h5 {
-    font-size: em(36);
-  }
-  p{
-    font-size: em(24);
-  }
 }
 
 // Extra small devices (portrait phones, less than 576px)
@@ -617,27 +554,5 @@ p {
         }
       }
     }
-  }
-  h1, .h1 {
-    font-size: em(40);
-  }
-  h2, .h2 {
-    font-size: em(56);
-    span{
-      display: block;
-    }
-  }
-  h3, .h3 {
-    font-size: em(42);
-    letter-spacing: 0;
-  }
-  h4, .h4 {
-    font-size: em(36);
-  }
-  h5, .h5 {
-    font-size: em(36);
-  }
-  p{
-    font-size: em(24);
   }
 }

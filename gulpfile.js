@@ -26,7 +26,7 @@ gulp.task('browserSync', () => {
 
 
 gulp.task('build-css', () => {
-    gulp.src('assets/style/{,/**/*}*.{scss,sass}')
+    return gulp.src('assets/style/*.{scss,sass}')
         .pipe(sourcemaps.init())
         .pipe(sass({
             errLogToConsole: true,
@@ -36,7 +36,7 @@ gulp.task('build-css', () => {
         .pipe(sourcemaps.write())
         .pipe(cleanCSS({compatibility: 'ie8'}))
         .pipe(gulp.dest('assets/css'))
-        .pipe(browserSync.reload({stream: true}));
+        // .pipe(browserSync.reload({stream: true}));
 });
 
 
@@ -76,11 +76,11 @@ gulp.task('imageMin', () => {
 
 
 gulp.task('watch', () => {
-    gulp.watch('assets/style/**/*.scss', gulp.series('build-css'));
+    gulp.watch(['assets/style/**/*.scss'], gulp.series('build-css'));
     gulp.watch(['assets/scripts/*.js'], gulp.series('scripts'));
     gulp.watch(['assets/img/*.*'], gulp.series('imageMin'));
 });
 
 
 // Create Gulp Default Task
-gulp.task('default', gulp.parallel('browserSync', 'watch', 'build-css', 'scripts', 'imageMin'));
+gulp.task('default', gulp.parallel('watch', 'build-css', 'scripts', 'imageMin'));

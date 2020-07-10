@@ -1,0 +1,17 @@
+.main-banner{
+  background: url("../svgs/menu-bg.svg");
+  min-height: em(945);
+  h1{
+    color: $white;
+    /* Making it easy for your value to be seen. */
+  }
+  p{
+    font-weight: 500;
+    font-size: em(24);
+    line-height: 1.54;
+    color: #FFFFFF;
+    opacity: 0.6;
+    width: 50%;
+    margin-bottom: em(30);
+  }
+}
