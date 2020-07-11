@@ -8,9 +8,7 @@
 <?php //include("includes/loading.php"); ?>
 <a class="sr-only sr-only-focusable skip-link" href="#container">Skip to main content</a>
 <main id="container" class="scroll-wrapper">
-    <div class="static-header">
-        <?php include("includes/header.php"); ?>
-    </div>
+    <?php include("includes/header.php"); ?>
     <section class="main-banner d-flex">
         <div class="container align-self-center">
             <div class="row align-items-center">
