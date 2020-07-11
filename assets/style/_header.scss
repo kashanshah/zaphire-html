@@ -16,6 +16,51 @@ header{
     display: inline-block;
     padding: em(6) 0;
   }
+  .menu-btn{
+    padding: em(6) 0;
+    display: inline-block;
+    .hamburger{
+      position: relative;
+      width: 37px;
+      height: 30px;
+      display: inline-block;
+      vertical-align: middle;
+      transition: all .5s linear;
+      .line{
+        background: #fff;
+        position: absolute;
+        width: 100%;
+        top: 0;
+        right: 0;
+        height: 3.5px;
+        @include borderRadius(5px);
+        transition: all .5s linear;
+        &:nth-child(2){
+          width: 70%;
+          top: 13.5px;
+        }
+        &:nth-child(3){
+          width: 40%;
+          top: 25.5px;
+        }
+      }
+    }
+    &:hover{
+      .hamburger{
+        transform: translateX(-100%);
+        .line{
+          transform: translateX(100%);
+          width: 40%;
+          &:nth-child(2){
+            width: 70%;
+          }
+          &:nth-child(3){
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
 }
 
 .primary-navigation{
@@ -39,4 +84,15 @@ header{
   }
   /* identical to box height */
   text-align: right;
+}
+
+.navigation-wrap{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background: linear-gradient(135deg,#38b8f2 0,#843cf6 100%);
+  z-index: 2;
 }
