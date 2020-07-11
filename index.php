@@ -13,11 +13,16 @@
     </div>
     <section class="main-banner d-flex">
         <div class="container align-self-center">
-            <div class="row">
+            <div class="row align-items-center">
                 <div class="col-md-7">
                     <h1>Making it easy for your value to be seen.</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
                     <a href="#" class="btn btn-primary"><span>Pilot Sign Up</span></a>
+                </div>
+                <div class="col-md-5">
+                    <video class="banner-video" autoplay>
+                        <source src="assets/video/banner-<?php echo isset($_GET["video"]) ? $_GET["video"] : 'small'; ?>.mp4" type="video/mp4" />
+                    </video>
                 </div>
             </div>
         </div>
