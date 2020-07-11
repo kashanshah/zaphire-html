@@ -354,7 +354,9 @@ $(document).ready(function () {
         });
 
         var menuBtnAnim = gsap.timeline({paused: true, duration: 2})
-        menuBtnAnim.fromTo(".navigation-wrap", {y: '-100%'}, {y: "0", ease: "Back.out"}, '0');
+        menuBtnAnim.set(".menu-list li", {x: '-100%', autoAlpha: 0}, 0);
+        menuBtnAnim.fromTo(".navigation-wrap", {y: '-100%'}, {y: "0", duration: 1}, 0);
+        menuBtnAnim.to(".menu-list li",{x: "0", autoAlpha: 1}, '+1');
         // menuBtnAnim.to(".right-section .benefits-content-wrapper", {duration: 1, x: -105, ease: "Back.out"}, '-=0.6')
         // menuBtnAnim.fromTo(".marTop", {marginTop: '0'}, {marginTop: '25%', duration: 1, ease: "Back.out"})
         // menuBtnAnim.fromTo(".right-section .benefits-content", {height: 0}, { height: 'auto', duration: 1, ease: "Back.out" }, '-=0.5')

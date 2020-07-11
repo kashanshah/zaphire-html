@@ -28,7 +28,7 @@
 
 <div class="navigation-wrap">
     <div class="close-menu-btn">CLOSE</div>
-    <ul class="main-wrapper">
+    <ul class="menu-list">
         <li><a href="#">Home</a></li>
         <li><a href="#">Use Cases</a></li>
         <li><a href="#">Features</a></li>
