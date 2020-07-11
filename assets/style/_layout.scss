@@ -118,16 +118,17 @@ a, button, .btn-link {
 }
 
 h1, .h1 {
+  // DONE
   font-weight: 800;
   line-height: 1.2;
   margin-bottom: em(3);
 }
 
 h2, .h2 {
-  font-weight: 700;
-  line-height: 1.0625;
-  margin-bottom: em(15);
-  letter-spacing: -1px;
+  // DONE
+  font-weight: 800;
+  line-height: 1.23;
+  margin-bottom: em(7);
 }
 
 h3, .h3 {
@@ -137,9 +138,11 @@ h3, .h3 {
 }
 
 h4, .h4 {
-  font-weight: 700;
-  line-height: 1.08;
-  margin-bottom: em(15);
+  // DONE
+  font-weight: 600;
+  line-height: 1.178;
+  text-align: center;
+  margin-bottom: em(10);
 }
 
 h5, .h5 {
@@ -154,70 +157,11 @@ h6, .h6 {
 }
 
 p {
-  font-size: em(28);
-  line-height: 1.428;
-  font-weight: 400;
+  // DONE
+  font-size: em(24);
+  line-height: 1.54;
+  font-weight: 500;
   &.lead {
-    margin-bottom: em(7);
-  }
-}
-
-.line-left{
-  position: relative;
-  padding-left: em(20);
-  &:before{
-    content: '';
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    width: em(5);
-    height: 100%;
-  }
-  &.line-primary{
-    &:before{
-      background: $primary;
-    }
-  }
-  &.line-success{
-    &:before{
-      background: $success;
-    }
-  }
-  &.line-info{
-    &:before{
-      background: $info;
-    }
-  }
-  &.line-warning{
-    &:before{
-      background: $warning;
-    }
-  }
-  &.line-pink{
-    &:before{
-      background: $pink;
-    }
-  }
-  &.line-purple{
-    &:before{
-      background: $purple;
-    }
-  }
-  &.line-cyan{
-    &:before{
-      background: $cyan;
-    }
-  }
-  &.line-maroon{
-    &:before{
-      background: $maroon;
-    }
-  }
-  &.line-gold{
-    &:before{
-      background: #7C5100;
-    }
   }
 }
 
@@ -272,7 +216,7 @@ p {
 }
 
 .container {
-  max-width: 82%;
+  max-width: em(1180);
 }
 
 .fw-700 {

@@ -1,5 +1,7 @@
 .main-banner{
   background: url("../svgs/menu-bg.svg");
+  background-size: cover;
+  background-position: bottom center;
   min-height: em(945);
   h1{
     color: $white;

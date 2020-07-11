@@ -1,0 +1,18 @@
+.content-sec{
+  &.dotted-bg{
+    position: relative;
+    overflow: hidden;
+    padding: 50px 0;
+    .dotted-bg-img{
+      position: absolute;
+      left: 26.5%;
+      top: 0;
+    }
+  }
+  h2{
+    color: #0F0A1E;
+  }
+  p{
+    color: rgba(#4F4F4F, 0.8);
+  }
+}
