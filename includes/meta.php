@@ -28,7 +28,7 @@
 
 <!--<link rel="manifest" href="site.webmanifest">-->
 <meta name="HandheldFriendly" content="True">
-<link rel="stylesheet" href="assets/css/style.css?=v0.1">
+<link rel="stylesheet" href="assets/css/style.css?v=<?php echo time(); ?>">
 <!--[if IE]>
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
