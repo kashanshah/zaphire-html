@@ -53,6 +53,7 @@ gulp.task('scripts', () => {
         'node_modules/jquery.easing/jquery.easing.js',
         'node_modules/jquery-ui/ui/widgets/datepicker.js',
         'node_modules/gsap/dist/gsap.min.js',
+        'node_modules/gsap/dist/EasePack.min.js',
         'node_modules/@fancyapps/fancybox/dist/jquery.fancybox.js',
         'assets/scripts/formValidation.js',
         'assets/scripts/gbootstrap.min.js',

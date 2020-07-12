@@ -25,6 +25,8 @@ function scrollBarInit() {
             syncCallbacks: true,
         }
     );
+
+    Scrollbar.initAll();
     $("#menu").on("click", "a", function (e) {
         e.preventDefault();
         y = $($(this).attr("href")).offset().top + scroll.offset.y;
@@ -352,23 +354,24 @@ $(document).ready(function () {
                 }
             }
         });
-
-        var menuBtnAnim = gsap.timeline({paused: true, duration: 2})
-        menuBtnAnim.set(".menu-list li", {x: '-100%', autoAlpha: 0}, 0);
-        menuBtnAnim.fromTo(".navigation-wrap", {y: '-100%'}, {y: "0", duration: 1}, 0);
-        menuBtnAnim.to(".menu-list li",{x: "0", autoAlpha: 1}, '+1');
-        // menuBtnAnim.to(".right-section .benefits-content-wrapper", {duration: 1, x: -105, ease: "Back.out"}, '-=0.6')
-        // menuBtnAnim.fromTo(".marTop", {marginTop: '0'}, {marginTop: '25%', duration: 1, ease: "Back.out"})
-        // menuBtnAnim.fromTo(".right-section .benefits-content", {height: 0}, { height: 'auto', duration: 1, ease: "Back.out" }, '-=0.5')
-        // menuBtnAnim.fromTo(".read-more", {opacity: 1, visibility: 'visible', y: 0}, { opacity: 0, visibility: 'hidden', y: -10, duration: 0.5, ease: "Back.out" });
-        // menuBtnAnim.fromTo(".read-less", {opacity: 0, visibility: 'hidden', y: 10}, { opacity: 1, visibility: 'visible', y: 0, duration: 0.5, ease: "Back.out" }, '-=0.5');
-        $('.menu-btn').on('click', function () {
-            menuBtnAnim.play();
-        });
-        $('.close-menu-btn').on('click', function () {
-            menuBtnAnim.reverse();
-        });
     }
+
+    // MENU TIMELINE START
+    var tlPosition = 0;
+    var menuBtnAnim = gsap.timeline({paused: true})
+    menuBtnAnim.fromTo(".navigation-wrap", {y: '-100vh'}, {y: "0", duration: 0.25}, 0);
+    $(".menu-list li").each(function (counter) {
+        // menuBtnAnim.fromTo(".menu-list li:nth-child("+(counter+1)+")",{autoAlpha: 0, }, {autoAlpha: 1, duration: 1,  ease: Power0.easeNone}, '-=.75');
+        tlPosition = tlPosition + 1 - .80;
+        menuBtnAnim.fromTo(".menu-list li:nth-child("+($(".menu-list li").length - counter)+")",{opacity: 0, rotateX: 90}, {opacity: 1, rotateX: 0, duration: 0.5,  ease: Power0.easeNone}, tlPosition);
+    });
+    $('.menu-btn').on('click', function () {
+        menuBtnAnim.play();
+    });
+    $('.close-menu-btn').on('click', function () {
+        menuBtnAnim.reverse();
+    });
+    // MENU TIMELINE END
 
 });
 

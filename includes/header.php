@@ -29,10 +29,20 @@
 <div class="navigation-wrap">
     <div class="close-menu-btn">CLOSE</div>
     <ul class="menu-list">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Use Cases</a></li>
-        <li><a href="#">Features</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Pilot Sign Up</a></li>
+        <li>
+            <a href="#">Home<span class="text-overlay"></span></a>
+        </li>
+        <li>
+            <a href="#">Use Cases<span class="text-overlay"></span></a>
+        </li>
+        <li>
+            <a href="#">Features<span class="text-overlay"></span></a>
+        </li>
+        <li>
+            <a href="#">About<span class="text-overlay"></span></a>
+        </li>
+        <li>
+            <a href="#">Pilot Sign Up<span class="text-overlay"></span></a>
+        </li>
     </ul>
 </div>
