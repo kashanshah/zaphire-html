@@ -116,13 +116,11 @@
 							</ul>
 						</div>
 						<div class="tab-content">
-							<div class="row align-items-center">
-								<div class="col-md-6">
-									<img src="assets/images/tab-01.jpg" alt="">
-								</div>
-								<div class="col-md-6">
-									<h2>Job seeker</h2>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+							<div class="row">
+								<div class="col-md-12 text-center">
+									<img class="mb-4" src="assets/images/tab-01.jpg" alt="">
+                                    <h2>Lorem ipsum dolor sit</h2>
+                                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed <br class="d-none d-md-block"/>do eiusmod tempor incididunt ut labore et dolore magna <br class="d-none d-md-block"/>aliqua</p>
 								</div>
 							</div>
 						</div>
@@ -131,6 +129,34 @@
 			</div>
 		</div>
 	</section>
+
+    <section class="box-sec text-center mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="box">
+                        <img src="assets/images/box-01.png" alt="">
+                        <h6>Virtual Career</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="box">
+                        <img src="assets/images/box-02.png" alt="">
+                        <h6>Virtual Career</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="box">
+                        <img src="assets/images/box-03.png" alt="">
+                        <h6>Virtual Career</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 	<section class="content-sec">
         <div class="container">

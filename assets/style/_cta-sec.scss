@@ -23,3 +23,22 @@ section.cta-sec {
 		}
 	}
 }
+
+
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 767px) {
+
+section.cta-sec {
+    padding: 40px 0;
+    .cta-mn{
+    	h2 {
+		    font-size: 20px;
+		}
+    }
+    a.btn {
+	    max-width: 240px;
+	}
+}
+
+}

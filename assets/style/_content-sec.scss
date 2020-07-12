@@ -16,3 +16,20 @@
     color: rgba(#4F4F4F, 0.8);
   }
 }
+
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 767px) {
+
+  .content-sec {
+    text-align: center;
+    &.dotted-bg {
+      padding: 10px 0;
+    }
+    img {
+      margin: 0 0 15px;
+      max-width: 190px;
+    }
+  }
+
+}
