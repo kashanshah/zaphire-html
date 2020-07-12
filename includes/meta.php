@@ -3,7 +3,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="description" content="Welcome to Zaphire">
 <meta name="keywords" content="Welcome to Zaphire">
-<meta name="author" content="Traffic Digital">
+<meta name="author" content="Welcome to Zaphire">
 
 <link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/apple-icon-60x60.png">

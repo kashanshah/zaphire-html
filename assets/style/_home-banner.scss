@@ -18,6 +18,32 @@
   }
 }
 
+.ie11{
+  .main-banner{
+    padding: 170px 0;
+  }
+}
+
 .banner-video{
   max-height: em(600);
+}
+
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 767px) {
+
+.main-banner {
+    padding: 120px 0;
+    text-align: center;
+    h1 {
+      font-size: em(40);
+    }
+    p {
+      width: 100%;
+    }
+    .banner-video {
+      margin: 40px 0 0;
+    }
+}
+
 }

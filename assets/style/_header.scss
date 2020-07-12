@@ -96,3 +96,29 @@ header{
   background: linear-gradient(135deg,#38b8f2 0,#843cf6 100%);
   z-index: 2;
 }
+
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 767px) {
+
+header {
+    padding: 10px 0;
+    .primary-navigation{
+      ul{
+        li{
+          margin-right: 10px;
+          a {
+            font-size: em(19);
+            padding: 14px 0;
+            &.menu-btn{
+              .hamburger {
+                transform: scale(0.7);
+              }
+            }
+          }
+        }
+      }
+    }
+}
+
+}
