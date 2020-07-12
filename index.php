@@ -95,7 +95,7 @@
                 <div class="col-md-6 order-md-0"><img src="assets/images/img-3.png" alt="" class="img-fluid"></div>
                 <div class="col-md-6">
                     <h2>Believe the new Change</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br class="d-none d-md-block"/>elit, sed do eiusmod tempor incididunt ut labore et <br class="d-none d-md-block"/>dolore magna aliqua.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
             </div>
         </div>
@@ -105,7 +105,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<h1 class="mb-5 text-center">Simplifying human <br class="d-none d-md-block"/>expression in real-time</h1>
+					<h1 class="mb-5 text-center">Simplifying human expression in real-time</h1>
 					<div class="tab-mn">
 						<div class="tab-head">
 							<ul>
@@ -120,7 +120,7 @@
 								<div class="col-md-12 text-center">
 									<img class="mb-4" src="assets/images/tab-01.jpg" alt="">
                                     <h2>Lorem ipsum dolor sit</h2>
-                                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed <br class="d-none d-md-block"/>do eiusmod tempor incididunt ut labore et dolore magna <br class="d-none d-md-block"/>aliqua</p>
+                                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
 								</div>
 							</div>
 						</div>
@@ -164,7 +164,7 @@
                 <div class="col-md-6 order-md-1"><img src="assets/images/img-4.png" alt="" class="img-fluid"></div>
                 <div class="col-md-6">
                     <h2>Reach</h2>
-                    <p>Lorem ipsum dolor sit amet, <br class="d-none d-md-block"/>consectetur adipiscing elit, sed do <br class="d-none d-md-block"/>eiusmod tempor incididunt ut labore <br class="d-none d-md-block"/>et dolore magna aliqua.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
             </div>
         </div>
@@ -175,8 +175,8 @@
             <div class="row align-items-center">
                 <div class="col-md-6 order-md-0"><img src="assets/images/img-5.png" alt="" class="img-fluid"></div>
                 <div class="col-md-6">
-                    <h2>Stream</h2>
-                    <p>Lorem ipsum dolor sit amet, <br class="d-none d-md-block"/>consectetur adipiscing elit, sed do <br class="d-none d-md-block"/>eiusmod tempor incididunt ut labore <br class="d-none d-md-block"/>et dolore magna aliqua.</p>
+                    <h2>Co-host</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
             </div>
         </div>
@@ -187,8 +187,8 @@
             <div class="row align-items-center">
                 <div class="col-md-6 order-md-1"><img src="assets/images/img-6.png" alt="" class="img-fluid"></div>
                 <div class="col-md-6">
-                    <h2>Translate</h2>
-                    <p>Lorem ipsum dolor sit amet, <br class="d-none d-md-block"/>consectetur adipiscing elit, sed do <br class="d-none d-md-block"/>eiusmod tempor incididunt ut labore <br class="d-none d-md-block"/>et dolore magna aliqua.</p>
+                    <h2>Stream</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
             </div>
         </div>
@@ -197,10 +197,22 @@
     <section class="content-sec">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-md-6 order-md-0"><img src="assets/images/img-7.png" alt="" class="img-fluid"></div>
+                <div class="col-md-6 order-md-0"><img src="assets/images/img-5.png" alt="" class="img-fluid"></div>
+                <div class="col-md-6">
+                    <h2>Translate</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-sec">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 order-md-1"><img src="assets/images/img-7.png" alt="" class="img-fluid"></div>
                 <div class="col-md-6">
                     <h2>Ever live</h2>
-                    <p>Lorem ipsum dolor sit amet, <br class="d-none d-md-block"/>consectetur adipiscing elit, sed do <br class="d-none d-md-block"/>eiusmod tempor incididunt ut labore <br class="d-none d-md-block"/>et dolore magna aliqua.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
             </div>
         </div>
@@ -211,7 +223,7 @@
             <div class="row">
                 <div class="col-md-12 text-center">
                     <div class="cta-mn">
-                        <h2>Lorem ipsum dolor sit amet, <br class="d-none d-md-block"/>consectetur adipiscing</h2>
+                        <h2>Lorem ipsum dolor sit amet, consectetur adipiscing</h2>
                     </div>
                     <a href="#" class="btn btn-primary"><span>Sign Up for Pilot Now</span></a>
                 </div>
