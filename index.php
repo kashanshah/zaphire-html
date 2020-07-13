@@ -5,7 +5,7 @@
     <title>Welcome to Zaphire</title>
 </head>
 <body>
-<?php //include("includes/loading.php"); ?>
+<?php include("includes/loading.php"); ?>
 <a class="sr-only sr-only-focusable skip-link" href="#container">Skip to main content</a>
 <?php include("includes/header.php"); ?>
 <main id="container" class="scroll-wrapper">
@@ -18,7 +18,7 @@
                     <a href="#" class="btn btn-primary"><span>Pilot Sign Up</span></a>
                 </div>
                 <div class="col-md-5">
-                    <video class="banner-video" autoplay loop mute>
+                    <video class="banner-video" autoplay loop muted playsinline>
                         <source src="assets/video/banner-<?php echo isset($_GET["video"]) ? $_GET["video"] : 'small'; ?>.mp4" type="video/mp4" />
                     </video>
                 </div>
