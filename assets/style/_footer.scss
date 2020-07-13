@@ -52,6 +52,9 @@ footer {
 		    font-size: 21px;
 		    line-height: 24px;
 		    color: #FFFFFF;
+		    &:focus{
+		    	outline: none;
+		    }
 		}
 		button {
 		    position: absolute;
