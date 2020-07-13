@@ -67,8 +67,8 @@
     </section>
 
     <section class="content-sec dotted-bg">
-        <img src="assets/svgs/bg-dots.svg" alt="" class="dotted-bg-img">
-        <div class="container">
+        <div class="container position-relative">
+        	<img src="assets/svgs/bg-dots.svg" alt="" class="dotted-bg-img">
             <div class="row align-items-center">
                 <div class="col-md-6 md-order-2"><img src="assets/images/img-1.png" alt="" class="img-fluid"></div>
                 <div class="col-md-5 offset-md-1">
@@ -105,7 +105,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<h1 class="mb-5 text-center">Simplifying human expression in real-time</h1>
+					<h1 class="mb-5 text-center">Simplifying human <br class="d-none d-lg-block">expression in real-time</h1>
 					<div class="tab-mn">
 						<div class="tab-head">
 							<ul>
@@ -118,7 +118,7 @@
 						<div class="tab-content">
 							<div class="row">
 								<div class="col-md-12 text-center">
-									<img class="mb-4" src="assets/images/tab-01.jpg" alt="">
+									<img class="mb-4 img-fluid" src="assets/images/tab-01.jpg" alt="">
                                     <h2>Lorem ipsum dolor sit</h2>
                                     <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
 								</div>
@@ -135,21 +135,21 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="box">
-                        <img src="assets/images/box-01.png" alt="">
+                        <img class="img-fluid" src="assets/images/box-01.png" alt="">
                         <h6>Virtual Career</h6>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="box">
-                        <img src="assets/images/box-02.png" alt="">
+                        <img class="img-fluid" src="assets/images/box-02.png" alt="">
                         <h6>Virtual Career</h6>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="box">
-                        <img src="assets/images/box-03.png" alt="">
+                        <img class="img-fluid" src="assets/images/box-03.png" alt="">
                         <h6>Virtual Career</h6>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                     </div>
