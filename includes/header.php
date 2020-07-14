@@ -2,7 +2,7 @@
     <header>
         <div class="fx-cnt container">
             <div class="row">
-                <div class="col-6 col-md-3">
+                <div class="col-6 col-md-3 align-self-center">
                     <a href="#" class="logo">
                         <img src="assets/svgs/logo.svg" alt="Zaphire" />
                         <div class="remaining-logo">
