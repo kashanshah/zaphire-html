@@ -381,9 +381,11 @@ $(document).ready(function () {
         menuBtnAnim.fromTo(".menu-list li:nth-child("+($(".menu-list li").length - counter)+")",{opacity: 0, rotateX: 90}, {opacity: 1, rotateX: 0, duration: 0.5,  ease: Power0.easeNone}, tlPosition);
     });
     $('.menu-btn').on('click', function () {
+        $(".close-menu-btn").fadeIn();
         menuBtnAnim.play();
     });
     $('.close-menu-btn').on('click', function () {
+        $(".close-menu-btn").fadeOut();
         menuBtnAnim.reverse();
     });
     // MENU TIMELINE END

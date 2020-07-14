@@ -32,13 +32,12 @@
 </div>
 
 <div class="navigation-wrap">
-    <div class="close-menu-btn">CLOSE</div>
+    <div class="close-menu-btn">
+        <img src="assets/svgs/close.svg" alt="" class="img-fluid" />
+    </div>
     <ul class="menu-list">
         <li>
-            <a href="#">Home<span class="text-overlay"></span></a>
-        </li>
-        <li>
-            <a href="#">Use Cases<span class="text-overlay"></span></a>
+            <a href="https://www.zaphore.com" target="_blank">Use Cases<span class="text-overlay"></span></a>
         </li>
         <li>
             <a href="#">Features<span class="text-overlay"></span></a>
