@@ -12,6 +12,7 @@
 header{
   min-height: em(116.36);
   padding: em(30) 0;
+  transition: all 0.4s ease;
   .logo{
     display: inline-block;
     overflow: hidden;
@@ -28,7 +29,7 @@ header{
           stroke-dasharray: 46;
           stroke-dashoffset: 138;
           &.trnsfrmlogo {
-              transform: translate3d(90px, 0px, 0px);
+              transform: translate3d(190px, 0px, 0px);
           }
         }
     }
@@ -79,10 +80,9 @@ header{
     }
   }
   &.fixed{
+    min-height: em(80);
+    padding: em(10) 0;
     .logo{
-      img {
-          animation: logoanim 1s forwards;
-      }
       svg {
           height: 54px;
           width: 254px;
@@ -96,16 +96,7 @@ header{
           }
       }
     }
-
   }
-}
-
-
-@keyframes logoanim {
-  0% {transform: translate3d(0px, 0px, 0px);opacity: 1;}
-  20% {opacity: 0.5;}
-  50% {transform: translate3d(0px, -5px, 0px);opacity: 0.5;}
-  100% {transform: translate3d(0px, 50px, 0px);opacity: 0;}
 }
 
 .primary-navigation{

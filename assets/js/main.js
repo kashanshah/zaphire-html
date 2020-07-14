@@ -38,8 +38,10 @@ function scrollBarInit() {
 
         if (scroll >= 50) {
             $("header").addClass("fixed");
+            $(".fx-cnt").addClass("container-fluid").removeClass('container');
         } else {
             $("header").removeClass("fixed");
+            $(".fx-cnt").addClass("container").removeClass('container-fluid');
         }
     });
 }
