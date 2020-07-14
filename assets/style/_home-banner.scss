@@ -2,7 +2,7 @@
   background: url("../svgs/menu-bg.svg");
   background-size: cover;
   background-position: bottom center;
-  min-height: em(945);
+  min-height: em(850);
   h1{
     color: $white;
     /* Making it easy for your value to be seen. */
@@ -25,7 +25,7 @@
 }
 
 .banner-video{
-  max-height: em(600);
+  max-height: em(500);
   border-radius: 32px;
 }
 

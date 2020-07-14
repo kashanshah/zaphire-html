@@ -32,6 +32,16 @@ function scrollBarInit() {
         y = $($(this).attr("href")).offset().top + scroll.offset.y;
         scroll.scrollTo(0, y, 1500);
     });
+
+    scroll.addListener((status) => {   
+        var scroll = status.offset.y;
+
+        if (scroll >= 50) {
+            $("header").addClass("fixed");
+        } else {
+            $("header").removeClass("fixed");
+        }
+    });
 }
 
 function animateElements() {
@@ -282,8 +292,11 @@ function sameHeight() {
     }, 1000);
 }
 
+
+
 $(document).ready(function () {
-    if (newsLetterForm.length) {
+
+   if (newsLetterForm.length) {
         newsLetterForm.formValidation({
             excluded: ':disabled',
             fields: {

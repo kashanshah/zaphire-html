@@ -81,7 +81,13 @@
     <section class="content-sec dotted-bg">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-md-6 order-md-1"><img src="assets/images/img-2.png" alt="" class="img-fluid"></div>
+                <div class="col-md-6 order-md-1">
+                	<img src="assets/images/img-2.png" alt="" class="img-fluid">
+                	<ul class="circle-ul">
+                		<li></li>
+                		<li></li>
+                	</ul>
+                </div>
                 <div class="col-md-5">
                     <h2>Immersive experience of hiring real people</h2>
                     <p>Lorem ipsum dolor sit amet,<br class="d-none d-md-block"/> consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -92,7 +98,7 @@
     <section class="content-sec dotted-bg">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-md-6 order-md-0"><img src="assets/images/img-3.png" alt="" class="img-fluid"></div>
+                <div class="col-md-6 order-md-0"><img src="assets/images/img-1.png" alt="" class="img-fluid"></div>
                 <div class="col-md-6">
                     <h2>Believe the new Change</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
