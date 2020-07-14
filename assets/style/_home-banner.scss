@@ -2,7 +2,8 @@
   background: url("../svgs/menu-bg.svg");
   background-size: cover;
   background-position: bottom center;
-  min-height: em(850);
+  min-height: 100vh;
+  padding: em(80) 0;
   h1{
     color: $white;
     /* Making it easy for your value to be seen. */

@@ -1,11 +1,11 @@
 section.cta-sec {
     background: url('../images/cta-bg.png') no-repeat;
     background-size: cover;
-    padding: 130px 0 100px;
+    padding: em(130) 0 em(100);
     .cta-mn {
 	    background: #0F0A1E;
-	    border-radius: 38px;
-	    padding: 80px 0;
+	    border-radius: em(38);
+	    padding: em(80) em(30);
 	    h2 {
 		    color: #FFF;
 		    font-size: em(60);
@@ -14,9 +14,9 @@ section.cta-sec {
 	}
 	a.btn {
 	    display: block;
-	    margin: -44px auto 0;
-	    max-width: 450px;
-	    border-radius: 50px;
+	    margin: em(-44) auto 0;
+	    max-width: em(450);
+	    border-radius: em(50);
 	    padding: em(20) 0;
 	    span {
 		    font-weight: 600;

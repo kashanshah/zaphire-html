@@ -19,7 +19,7 @@
                 </div>
                 <div class="col-md-5">
                     <video class="banner-video" autoplay loop muted playsinline>
-                        <source src="assets/video/banner-<?php echo isset($_GET["video"]) ? $_GET["video"] : 'small'; ?>.mp4" type="video/mp4" />
+                        <source src="assets/video/banner-<?php echo isset($_GET["video"]) ? $_GET["video"] : 'medium'; ?>.mp4" type="video/mp4" />
                     </video>
                 </div>
             </div>

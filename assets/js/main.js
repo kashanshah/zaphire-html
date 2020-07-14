@@ -377,7 +377,7 @@ $(document).ready(function () {
     menuBtnAnim.fromTo(".navigation-wrap", {y: '-100vh'}, {y: "0", duration: 0.25}, 0);
     $(".menu-list li").each(function (counter) {
         // menuBtnAnim.fromTo(".menu-list li:nth-child("+(counter+1)+")",{autoAlpha: 0, }, {autoAlpha: 1, duration: 1,  ease: Power0.easeNone}, '-=.75');
-        tlPosition = tlPosition + 1 - .80;
+        tlPosition = tlPosition + 1 - .95;
         menuBtnAnim.fromTo(".menu-list li:nth-child("+($(".menu-list li").length - counter)+")",{opacity: 0, rotateX: 90}, {opacity: 1, rotateX: 0, duration: 0.5,  ease: Power0.easeNone}, tlPosition);
     });
     $('.menu-btn').on('click', function () {
