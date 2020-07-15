@@ -19,6 +19,8 @@ header{
     transform: translateY(-100%);
   }
   .fx-cnt{
+    padding-left: em(30);
+    padding-right: em(30);
     @include transitions(.25s);
     &.container-fluid{
       max-width: 100%;
