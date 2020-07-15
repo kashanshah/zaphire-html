@@ -34,7 +34,7 @@ function scrollBarInit() {
     });
 
     var prevScroll = 0;
-    scroll.addListener((status) => {   
+    scroll.addListener((status) => {
         var scroll = status.offset.y;
 
         if (scroll >= 50){
