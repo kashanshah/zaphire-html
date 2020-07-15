@@ -24,10 +24,13 @@ header{
     @include transitions(.25s);
     &.container-fluid{
       max-width: 100%;
-      .remaining-logo{
-        img{
-          transform: translateX(0);
-        }
+    }
+
+  }
+  &.fixed-going-up{
+    .remaining-logo{
+      img{
+        transform: translateX(0);
       }
     }
   }
