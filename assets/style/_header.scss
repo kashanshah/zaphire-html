@@ -1,21 +1,22 @@
-.static-header{
-  //background: rgba(#C4C4C4, 0.1);
-
+header{
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   margin: auto;
   z-index: 1;
-}
-
-header{
   min-height: em(116.36);
   padding: em(30) 0;
   transition: all 0.4s ease;
   &.fixed{
     background: rgba(0,0,0, 0.5);
     padding: 0 em(15);
+  }
+  &.fixed-going-up{
+    transform: translateY(0);
+  }
+  &.fixed-going-down{
+    transform: translateY(-100%);
   }
   .fx-cnt{
     @include transitions(.25s);
@@ -127,10 +128,10 @@ header{
   ul{
     margin: 0;
     padding: 0;
+    list-style-type: none;
     li{
       display: inline-block;
       margin-right: em(39);
-      list-style: none;
       a{
         font-weight: 600;
         font-size: 24px;
@@ -166,11 +167,20 @@ header{
   width: 100%;
   text-align: left;
   padding: em(60);
+  counter-reset: elementcounter;
   li{
     font-size: 2em;
-    list-style: decimal;
     display: list-item;
     color: rgba($white, 0.5);
+    list-style: none;
+    &:before{
+      content: "0" counter(elementcounter) ". ";
+      counter-increment: elementcounter;
+      font-weight: 300;
+      vertical-align: top;
+      position: relative;
+      top: em(5);
+    }
     a{
       position: relative;
       color: $white;
@@ -192,11 +202,23 @@ header{
 
 .close-menu-btn{
   position: absolute;
-  display: none;
   top: em(30);
   right: em(30);
   cursor: pointer;
-  max-width: em(45);
+  width: em(45);
+  height: em(45);
+  z-index: 2;
+  .line{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 2px;
+    width: 100%;
+    background: $white;
+  }
 }
 
 

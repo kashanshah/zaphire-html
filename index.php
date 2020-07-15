@@ -69,6 +69,7 @@
     <section class="content-sec dotted-bg">
         <div class="container position-relative">
         	<img src="assets/svgs/bg-dots.svg" alt="" class="dotted-bg-img">
+        	<img src="assets/svgs/bg-dots-purple.svg" alt="" class="dotted-bg-img purple">
             <div class="row align-items-center">
                 <div class="col-md-6 md-order-2"><img src="assets/images/img-1.png" alt="" class="img-fluid"></div>
                 <div class="col-md-5 offset-md-1">

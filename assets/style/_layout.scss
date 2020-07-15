@@ -168,6 +168,8 @@ p {
 .btn {
   min-height: em(60);
   display: inline-block;
+  border: 0;
+  outline: none;
   @include transitions(0.5s);
   &:not(.dropdown-toggle) {
     @include borderRadius(0);
@@ -185,7 +187,7 @@ p {
 
   &.btn-primary {
     background: #F2C94C;
-    box-shadow: 0px 4px 54px rgba(81, 81, 81, 0.25);
+    box-shadow: 0 0 0 rgba(81, 81, 81, 0.25);
     border-radius: 12px;
     padding: em(13) em(48) em(11);
     font-size: em(16);
