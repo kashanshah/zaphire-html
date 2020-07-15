@@ -17,7 +17,7 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
                     <a href="#" class="btn btn-primary"><span>Pilot Sign Up</span></a>
                 </div>
-                <div class="col-md-5 text-center">
+                <div class="col-md-5 text-right">
                     <video class="banner-video" autoplay loop muted playsinline>
                         <source src="assets/video/banner-<?php echo isset($_GET["video"]) ? $_GET["video"] : 'medium'; ?>.mp4" type="video/mp4" />
                     </video>
