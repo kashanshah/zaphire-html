@@ -39,7 +39,7 @@ function scrollBarInit() {
 
         if (scroll >= 50){
             $("header").addClass("fixed");
-            $(".fx-cnt").addClass("container-fluid").removeClass('container');
+            // $(".fx-cnt").addClass("container-fluid").removeClass('container');
             if (prevScroll < scroll) {
                 $("header").removeClass("fixed-going-up");
                 $("header").addClass("fixed-going-down");
@@ -50,7 +50,7 @@ function scrollBarInit() {
             }
         } else {
             $("header").removeClass("fixed");
-            $(".fx-cnt").addClass("container").removeClass('container-fluid');
+            // $(".fx-cnt").addClass("container").removeClass('container-fluid');
         }
         prevScroll = scroll;
     });

@@ -1,5 +1,5 @@
 <header>
-    <div class="fx-cnt container">
+    <div class="fx-cnt container-fluid">
         <div class="row">
             <div class="col-6 col-md-3 align-self-center">
                 <a href="#" class="logo">
