@@ -298,6 +298,14 @@ function sameHeight() {
 
 $(document).ready(function () {
 
+    $('.tab-head ul li a').click(function(){
+        $('.tab-head ul li a').removeClass('active');
+        $(this).addClass('active');
+        var tagid = $(this).data('tag');
+        $('.tab-innr').removeClass('active').addClass('hide');
+        $('#'+tagid).addClass('active').removeClass('hide');
+    });
+
    if (newsLetterForm.length) {
         newsLetterForm.formValidation({
             excluded: ':disabled',

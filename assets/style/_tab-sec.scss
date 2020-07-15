@@ -47,6 +47,12 @@ section.tab-sec {
 		    	font-size: em(32);
 			    font-weight: 600;
 			}
+			.tab-innr{
+				display: none;
+				&.active{
+					display: block;
+				}
+			}
 		}
 	}
 }

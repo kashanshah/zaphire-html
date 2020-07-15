@@ -8,7 +8,16 @@
       left: 26.5%;
       top: 0;
     }
-     ul.circle-ul {
+  }
+  h2{
+    color: #0F0A1E;
+  }
+  p{
+    color: rgba(#4F4F4F, 0.8);
+    width: em(410);
+    max-width: 100%;
+  }
+  ul.circle-ul {
         margin: 0px;
         padding: 0;
         list-style: none;
@@ -32,16 +41,61 @@
                 animation: mymove 8s infinite 4s;
             }
         }
+        &.circle-v2{
+          li {
+              width: 27.1px;
+              height: 27.1px;
+              bottom: inherit;
+              top: 0px;
+              left: 141px;
+              &:nth-child(2) {
+                  background: #97C254;
+                  width: 56.97px;
+                  height: 56.97px;
+                  top: initial;
+                  bottom: 0;
+                  right: 0px;
+                  left: initial;
+              }
+              &:nth-child(3) {
+                  width: 27.1px;
+                  height: 27.1px;
+                  bottom: inherit;
+                  top: 0px;
+                  left: initial;
+                  right: 100px;
+                  filter: blur(7px);
+                  background: #2ca8e7;
+                  animation-delay: 10s;
+              }
+              &:nth-child(4) {
+                  width: 86.17px;
+                  height: 86.17px;
+                  left: 0;
+                  top: initial;
+                  bottom: 0px;
+                  background: #DE6339;
+                  animation-delay: 13s;
+              }
+          }
+          &.v3{
+            li{
+              bottom: 160px;
+              top: initial;
+              left: initial;
+              right: 120px;
+              &:nth-child(2) {
+                  bottom: initial;
+                  top: 90px;
+                  left: 0px;
+              }
+              &:nth-child(3) {
+                  top: 0px;
+              }
+            }
+          }
+        }
     }
-  }
-  h2{
-    color: #0F0A1E;
-  }
-  p{
-    color: rgba(#4F4F4F, 0.8);
-    width: em(410);
-    max-width: 100%;
-  }
 }
 
 @keyframes mymove {
