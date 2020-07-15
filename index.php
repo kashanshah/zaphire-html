@@ -17,7 +17,7 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
                     <a href="#" class="btn btn-primary"><span>Pilot Sign Up</span></a>
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-5 text-center">
                     <video class="banner-video" autoplay loop muted playsinline>
                         <source src="assets/video/banner-<?php echo isset($_GET["video"]) ? $_GET["video"] : 'medium'; ?>.mp4" type="video/mp4" />
                     </video>
@@ -126,7 +126,7 @@
 							<div class="row">
 								<div class="col-md-12 text-center">
                                     <div id="jobseeker" class="tab-innr active">
-    									<img class="mb-4 img-fluid" src="assets/images/tab-1.jpg" alt="">
+    									<img class="mb-4 img-fluid" src="assets/images/tab-01.jpg" alt="">
                                         <h2>Lorem ipsum dolor sit</h2>
                                         <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                                     </div>
@@ -136,7 +136,7 @@
                                         <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                                     </div>
                                     <div id="recruiters" class="tab-innr">
-                                        <img class="mb-4 img-fluid" src="assets/images/recruiter.png" alt="">
+                                        <img class="mb-4 img-fluid" src="assets/images/recruiters.png" alt="">
                                         <h2>Lorem ipsum dolor sit</h2>
                                         <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                                     </div>

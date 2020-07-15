@@ -10,12 +10,12 @@ section.tab-sec {
     .tab-mn {
     	box-shadow: 0 20px 40px 2px #00000040;
 	    background: #FFFFFF;
-	    border-radius: em(20);
+	    border-radius: 20px;
 	    .tab-head {
-		    padding: em(30) em(30) em(15);
+		    padding: 28px;
 		    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 		    ul {
-			    justify-content: center;
+			    justify-content: space-around;
 			    list-style: none;
 			    display: flex;
 			    margin: 0px;
@@ -40,7 +40,7 @@ section.tab-sec {
 			}
 		}
 		.tab-content {
-		    padding: em(15) em(15) em(30);
+		    padding: 60px 0px;
 		    max-width: 1020px;
 		    margin: auto;
 		    h2 {
@@ -62,7 +62,13 @@ section.tab-sec {
 
 section.tab-sec {
     padding: 180px 0 60px;
+    .tab-mn {
+    	.tab-content {
+		    padding: 25px;
+		}
+    }
 }
+
 }
 
 
@@ -84,6 +90,9 @@ section.tab-sec {
 					}
 				}
 			}
+		}
+    	.tab-content {
+		    padding: 30px;
 		}
     }
 }
@@ -116,6 +125,7 @@ section.tab-sec {
 			}
 		}
 		.tab-content{
+			padding: 30px 15px;
 			img {
 			    max-width: 100%;
 			}
