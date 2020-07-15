@@ -52,16 +52,6 @@ section.tab-sec {
 				&.active{
 					display: block;
 				}
-				.image-div {
-					position: relative;
-					h2{
-						position: absolute;
-						bottom: em(15);
-						left: 0;
-						right: 0;
-						width: 100%;
-					}
-				}
 			}
 		}
 	}

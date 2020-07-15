@@ -126,10 +126,8 @@
 							<div class="row">
 								<div class="col-md-12 text-center">
                                     <div id="jobseeker" class="tab-innr active">
-                                        <div class="image-div">
-                                            <img class="mb-4 img-fluid" src="assets/images/tab-1.jpg" alt="">
-                                            <h2>Lorem ipsum dolor sit</h2>
-                                        </div>
+    									<img class="mb-4 img-fluid" src="assets/images/tab-1.jpg" alt="">
+                                        <h2>Lorem ipsum dolor sit</h2>
                                         <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                                     </div>
                                     <div id="employers" class="tab-innr">
