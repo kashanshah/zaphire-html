@@ -4,10 +4,10 @@
 			<div class="col-md-4">
 				<h4>Fanatics for Fairness</h4>
 				<ul>
-					<li><a href="#">hello@zaphire.com</a></li>
-					<li><a href="#">Privacy Policy</a></li>
-					<li><a href="#">Website Accessiblity</a></li>
-					<li><a href="#">Credits</a></li>
+					<li><a href="mailto:hello@zaphire.com" target="_blank">hello@zaphire.com</a></li>
+					<li><a href="https://www.zaphire.com/privacy-policy/" target="_blank">Privacy Policy</a></li>
+					<li><a href="https://www.zaphire.com/accessibility/" target="_blank">Website Accessiblity</a></li>
+					<li><a href="#">Terms of Use</a></li>
 					<li>&copy; 2020 Zaphire. All right reserved</li>
 				</ul>
 			</div>
