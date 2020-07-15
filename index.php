@@ -30,7 +30,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <div class="info-box">
+                    <div class="info-box info-box-v1">
                         <div class="info-icon info-icon-1">
                             <img src="assets/svgs/connections.svg" alt="connections" class="ing-fluid">
                         </div>
@@ -41,7 +41,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="info-box">
+                    <div class="info-box info-box-v2">
                         <div class="info-icon info-icon-2">
                             <img src="assets/svgs/engagements.svg" alt="connections" class="ing-fluid">
                         </div>
@@ -52,7 +52,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="info-box">
+                    <div class="info-box info-box-v3">
                         <div class="info-icon info-icon-3">
                             <img src="assets/svgs/community.svg" alt="connections" class="ing-fluid">
                         </div>
@@ -116,18 +116,35 @@
 					<div class="tab-mn">
 						<div class="tab-head">
 							<ul>
-								<li><a class="active" href="javascript:;">Jobseeker</a></li>
-								<li><a href="javascript:;">Employers</a></li>
-								<li><a href="javascript:;">Recruiters</a></li>
-								<li><a href="javascript:;">Coach</a></li>
+								<li><a data-tag="jobseeker" class="active" href="javascript:;">Jobseeker</a></li>
+								<li><a data-tag="employers" href="javascript:;">Employers</a></li>
+								<li><a data-tag="recruiters" href="javascript:;">Recruiters</a></li>
+								<li><a data-tag="coach" href="javascript:;">Coach</a></li>
 							</ul>
 						</div>
 						<div class="tab-content">
 							<div class="row">
 								<div class="col-md-12 text-center">
-									<img class="mb-4 img-fluid" src="assets/images/tab-01.jpg" alt="">
-                                    <h2>Lorem ipsum dolor sit</h2>
-                                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                                    <div id="jobseeker" class="tab-innr active">
+    									<img class="mb-4 img-fluid" src="assets/images/tab-01.jpg" alt="">
+                                        <h2>Lorem ipsum dolor sit</h2>
+                                        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                                    </div>
+                                    <div id="employers" class="tab-innr">
+                                        <img class="mb-4 img-fluid" src="assets/images/tab-01.jpg" alt="">
+                                        <h2>Lorem ipsum dolor sit</h2>
+                                        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                                    </div>
+                                    <div id="recruiters" class="tab-innr">
+                                        <img class="mb-4 img-fluid" src="assets/images/tab-01.jpg" alt="">
+                                        <h2>Lorem ipsum dolor sit</h2>
+                                        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                                    </div>
+                                    <div id="coach" class="tab-innr">
+                                        <img class="mb-4 img-fluid" src="assets/images/tab-01.jpg" alt="">
+                                        <h2>Lorem ipsum dolor sit</h2>
+                                        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                                    </div>
 								</div>
 							</div>
 						</div>
@@ -168,7 +185,15 @@
 	<section class="content-sec">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-md-6 order-md-1"><img src="assets/images/img-4.png" alt="" class="img-fluid"></div>
+                <div class="col-md-6 order-md-1">
+                    <img src="assets/images/img-4.png" alt="" class="img-fluid">
+                    <ul class="circle-ul circle-v2">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
                 <div class="col-md-6">
                     <h2>Reach</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -180,7 +205,9 @@
     <section class="content-sec">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-md-6 order-md-0"><img src="assets/images/img-5.png" alt="" class="img-fluid"></div>
+                <div class="col-md-6 order-md-0">
+                    <img src="assets/images/img-5.png" alt="" class="img-fluid">
+                </div>
                 <div class="col-md-6">
                     <h2>Co-host</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -192,7 +219,14 @@
     <section class="content-sec">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-md-6 order-md-1"><img src="assets/images/img-6.png" alt="" class="img-fluid"></div>
+                <div class="col-md-6 order-md-1">
+                    <img src="assets/images/img-6.png" alt="" class="img-fluid">
+                    <ul class="circle-ul circle-v2 v3">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
                 <div class="col-md-6">
                     <h2>Stream</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
