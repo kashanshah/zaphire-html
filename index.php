@@ -9,8 +9,8 @@
 <a class="sr-only sr-only-focusable skip-link" href="#container">Skip to main content</a>
 <?php include("includes/header.php"); ?>
 <main id="container" class="scroll-wrapper">
-    <section class="main-banner d-flex">
-        <div class="container align-self-center">
+    <section class="main-banner">
+        <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-7">
                     <h1>Making it easy for your value to be seen.</h1>
@@ -136,7 +136,7 @@
                                         <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                                     </div>
                                     <div id="recruiters" class="tab-innr">
-                                        <img class="mb-4 img-fluid" src="assets/images/tab-01.jpg" alt="">
+                                        <img class="mb-4 img-fluid" src="assets/images/recruiter.png" alt="">
                                         <h2>Lorem ipsum dolor sit</h2>
                                         <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                                     </div>
