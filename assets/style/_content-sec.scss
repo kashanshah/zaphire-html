@@ -23,54 +23,54 @@
         list-style: none;
         li {
             background: #F2C94C;
-            width: 152.23px;
-            height: 152.23px;
+            width: em(152.23);
+            height: em(152.23);
             border-radius: 100%;
             position: absolute;
-            bottom: -20px;
-            left: 70px;
+            bottom: em(-20);
+            left: em(70);
             animation: mymove 8s infinite;
             &:nth-child(2) {
-                width: 78.39px;
-                height: 78.39px;
+                width: em(78);
+                height: em(78);
                 background: #DE6339;
                 bottom: inherit;
-                top: 380px;
-                right: 70px;
+                top: em(380);
+                right: em(70);
                 left: inherit;
                 animation: mymove 8s infinite 4s;
             }
         }
         &.circle-v2{
           li {
-              width: 27.1px;
-              height: 27.1px;
+              width: em(27);
+              height: em(27);
               bottom: inherit;
               top: 0px;
-              left: 141px;
+              left: em(141);
               &:nth-child(2) {
                   background: #97C254;
-                  width: 56.97px;
-                  height: 56.97px;
+                  width: em(56);
+                  height: em(56);
                   top: initial;
                   bottom: 0;
                   right: 0px;
                   left: initial;
               }
               &:nth-child(3) {
-                  width: 27.1px;
-                  height: 27.1px;
+                  width: em(27);
+                  height: em(27);
                   bottom: inherit;
                   top: 0px;
                   left: initial;
-                  right: 100px;
+                  right: em(100);
                   filter: blur(7px);
                   background: #2ca8e7;
                   animation-delay: 10s;
               }
               &:nth-child(4) {
-                  width: 86.17px;
-                  height: 86.17px;
+                  width: em(86);
+                  height: em(86);
                   left: 0;
                   top: initial;
                   bottom: 0px;
@@ -80,13 +80,13 @@
           }
           &.v3{
             li{
-              bottom: 160px;
+              bottom: em(160);
               top: initial;
               left: initial;
-              right: 120px;
+              right: em(120);
               &:nth-child(2) {
                   bottom: initial;
-                  top: 90px;
+                  top: em(90);
                   left: 0px;
               }
               &:nth-child(3) {
@@ -116,6 +116,15 @@
     img {
       margin: 0 0 15px;
       max-width: 190px;
+    }
+    ul.circle-ul{
+      li{
+        bottom: em(45);
+        &:nth-child(2){
+          top: auto;
+          bottom: em(45);
+        }
+      }
     }
   }
 

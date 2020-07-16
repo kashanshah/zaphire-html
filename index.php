@@ -5,7 +5,7 @@
     <title>Welcome to Zaphire</title>
 </head>
 <body>
-<?php include("includes/loading.php"); ?>
+<?php //include("includes/loading.php"); ?>
 <a class="sr-only sr-only-focusable skip-link" href="#container">Skip to main content</a>
 <?php include("includes/header.php"); ?>
 <main id="container" class="scroll-wrapper">
@@ -17,7 +17,7 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
                     <a href="#" class="btn btn-primary"><span>Pilot Sign Up</span></a>
                 </div>
-                <div class="col-md-5 text-right">
+                <div class="col-md-5 text-center text-md-right">
                     <video class="banner-video" autoplay loop muted playsinline>
                         <source src="assets/video/banner-<?php echo isset($_GET["video"]) ? $_GET["video"] : 'medium'; ?>.mp4" type="video/mp4" />
                     </video>
@@ -126,22 +126,22 @@
 							<div class="row">
 								<div class="col-md-12 text-center">
                                     <div id="jobseeker" class="tab-innr active">
-    									<img class="mb-4 img-fluid" src="assets/images/tab-01.jpg" alt="">
+    									<img class="mb-4 img-fluid" src="assets/images/tab-1.png" alt="">
                                         <h2>Lorem ipsum dolor sit</h2>
                                         <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                                     </div>
                                     <div id="employers" class="tab-innr">
-                                        <img class="mb-4 img-fluid" src="assets/images/tab-01.jpg" alt="">
+                                        <img class="mb-4 img-fluid" src="assets/images/tab-2-img.png" alt="">
                                         <h2>Lorem ipsum dolor sit</h2>
                                         <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                                     </div>
                                     <div id="recruiters" class="tab-innr">
-                                        <img class="mb-4 img-fluid" src="assets/images/recruiters.png" alt="">
+                                        <img class="mb-4 img-fluid" src="assets/images/tab-1.png" alt="">
                                         <h2>Lorem ipsum dolor sit</h2>
                                         <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                                     </div>
                                     <div id="coach" class="tab-innr">
-                                        <img class="mb-4 img-fluid" src="assets/images/tab-01.jpg" alt="">
+                                        <img class="mb-4 img-fluid" src="assets/images/tab-1.png" alt="">
                                         <h2>Lorem ipsum dolor sit</h2>
                                         <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                                     </div>

@@ -36,6 +36,26 @@ section.tab-sec {
 					    	color: #FFF;
 					    }
 					}
+					&:nth-child(1){
+						a.active {
+							background: #158CF5;
+						}
+					}
+					&:nth-child(2){
+						a.active {
+							background: #97C254;
+						}
+					}
+					&:nth-child(3){
+						a.active {
+							background: #E9963E;
+						}
+					}
+					&:nth-child(4){
+						a.active {
+							background: #DC4e40;
+						}
+					}
 				}
 			}
 		}
@@ -111,9 +131,8 @@ section.tab-sec {
 	}
 	.tab-mn{
 		.tab-head{
-			overflow: scroll;
 			ul{
-				place-content: flex-start;
+				flex-direction: column;
 				li{
 					max-width: initial;
 					margin: 0 16px 0 0;
