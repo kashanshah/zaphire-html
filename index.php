@@ -131,7 +131,7 @@
                                         <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                                     </div>
                                     <div id="employers" class="tab-innr">
-                                        <img class="mb-4 img-fluid" src="assets/images/tab-2-img.png" alt="">
+                                        <img class="mb-4 img-fluid" src="assets/images/tab-2.png" alt="">
                                         <h2>Lorem ipsum dolor sit</h2>
                                         <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                                     </div>

@@ -12,7 +12,7 @@
 				</ul>
 			</div>
 			<div class="col-md-3 text-center">
-				<img src="assets/svgs/footer-logo.svg" alt="">
+				<img src="assets/svgs/footer-logo-svg.svg" alt="" class="img-fluid footer-logo">
 			</div>
 			<div class="col-md-5">
 				<h6>GET EMAIL UPDATES</h6>
