@@ -66,6 +66,9 @@ footer {
 	}
 }
 
+.footer-logo{
+	max-width: 100%;
+}
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -89,20 +92,33 @@ footer {
 
 footer {
     padding: 30px 0;
+	h4{
+		font-size: 1.625rem;
+		font-weight: 600;
+		padding: 0;
+		margin: 0;
+	}
     h6 {
-	    margin: 30px 0 0px;
+	    margin: 30px 0 20px;
 	}
     ul{
-    	margin: 0 0 40px;
-    	text-align: center;
+    	margin: 30px 0 15px;
+		font-size: em(16);
     	li {
-		    margin: 0 0 9px;
+		    margin: 20px 0;
+			&:first-child{
+				margin-top: 0;
+			}
+			a{
+				font-size: em(16);
+			}
 		}
     }
     .emailupd-mn{
     	input {
 		    font-size: 16px;
 		    padding: 13px 0;
+			min-height: 60px;
 		}
 		button{
 			img {
@@ -114,4 +130,11 @@ footer {
     }
 }
 
+	.footer-logo{
+		transform: rotate(90deg);
+		width: 83px;
+		height: 112px;
+		transform-origin: 100% 100%;
+		margin-bottom: 15px;
+	}
 }
