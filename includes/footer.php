@@ -1,4 +1,5 @@
 <footer>
+    <img src="assets/svgs/footer-logo-svg.svg" alt="" class="img-fluid footer-logo">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4 first-half">
@@ -12,7 +13,6 @@
 				</ul>
 			</div>
 			<div class="col-md-3 text-center">
-				<img src="assets/svgs/footer-logo-svg.svg" alt="" class="img-fluid footer-logo">
 				<img src="assets/svgs/footer-logo-svg-mob.svg" alt="" class="img-fluid footer-mob-logo">
 			</div>
 			<div class="col-md-5">
