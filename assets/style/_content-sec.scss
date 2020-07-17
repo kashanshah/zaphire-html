@@ -142,6 +142,15 @@
       margin: 0 0 15px;
       max-width: 190px;
     }
+    &.dotted-bg {
+      .dotted-bg-img{
+        left: 0;
+        svg, img{
+          max-width: 70%;
+          margin: auto;
+        }
+      }
+    }
     ul.circle-ul {
       li {
         bottom: em(60);
