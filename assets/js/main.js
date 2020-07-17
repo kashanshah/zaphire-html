@@ -434,7 +434,7 @@ $(document).ready(function () {
                 div.style.fill = colorsArray[rand(50)];
             });
         }
-        window.setInterval(move, 50);
+        window.setInterval(move, 500);
     }
 });
 
