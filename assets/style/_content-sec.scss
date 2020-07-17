@@ -1,7 +1,7 @@
 .content-sec {
   &.dotted-bg {
     position: relative;
-    padding: 50px 0;
+    padding: 0px 0;
 
     .dotted-bg-img {
       position: absolute;
@@ -61,7 +61,7 @@
           height: em(56);
           top: initial;
           bottom: 0;
-          right: 0px;
+          right: 100px;
           left: initial;
         }
 
@@ -140,10 +140,29 @@
     ul.circle-ul {
       li {
         bottom: em(60);
-
+        left: em(0);
         &:nth-child(2) {
           top: auto;
           bottom: em(80);
+        }
+        &.v2{
+          li{
+            &:nth-child(2){
+              right: 100px;
+            }
+          }
+        }
+      }
+      &.circle-v2{
+        li{
+          left: em(100);
+        }
+        &.v3 {
+          li{
+            &:nth-child(2){
+              left: em(20);
+            }
+          }
         }
       }
     }

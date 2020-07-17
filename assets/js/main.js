@@ -21,59 +21,11 @@ function scrollBarInit() {
     // Scrollbar.initAll();
     var scrollPosition = 0;
     // initial smooth-scrollbar
-    let scenes = [];
-    let isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
     scroll = Scrollbar.init(
         document.querySelector(".scroll-wrapper"), {
             syncCallbacks: true,
         }
     );
-    // initiate ScrollMagic Controller
-    let controller =
-        new ScrollMagic.Controller(
-            {
-                refreshInterval: 0,
-            }
-        );
-    // update scrollY controller
-    if (isChrome) {
-        controller.scrollPos(function () {
-            return scrollPosition;
-        });
-    }
-    // initiate ScrollMagic Scene each section
-    $(".circle-part-v1").each(function () {
-console.log("ASD");
-        let parentSec = $(this).closest("section").get(0);
-
-        var tl = new TimelineMax();
-        tl.fromTo($(this).get(0), 1,
-            {autoAlpha: 0.5, yPercent: -250, xPercent: 50, scale: 1, duration: 0.2},
-            {autoAlpha: 1, yPercent: 50, scale: 0.5, xPercent: 0});
-
-        scenes.push(
-            new ScrollMagic
-                .Scene(
-                    {
-                        offset: 250,
-                        triggerHook: "onEnter",
-                        triggerElement: parentSec,
-                        duration: $(window).height() + 750,
-                        reverse: true
-                    })
-                .setTween(tl)
-                .on("leave", function () {
-                    console.log('leave scene');
-                })
-                .on("enter", function () {
-                    console.log('enter scene');
-                })
-                .on("progress", function (e) {
-                    console.log("progress => ", e.progress);
-                })
-                .addTo(controller)
-        );
-    });
 
     var prevscrollPosition = 0;
     scroll.addListener((status) => {
@@ -97,15 +49,6 @@ console.log("ASD");
             // $(".fx-cnt").addClass("container").removeClass('container-fluid');
         }
         prevscrollPosition = scrollPosition;
-
-        if (isChrome) {
-            controller.update();
-            console.log("asdasd");
-        } else {
-            scenes.forEach(function (scene) {
-                scene.refresh();
-            });
-        }
     });
     $("#menu").on("click", "a", function (e) {
         e.preventDefault();
