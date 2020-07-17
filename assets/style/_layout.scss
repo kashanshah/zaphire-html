@@ -28,6 +28,18 @@ body {
     overflow: hidden;
   }
 
+  .scrollbar-track-y{
+    width: 12px;
+  }
+
+  .scrollbar-thumb{
+    width: 10px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 }
 
 a, button, .btn-link {
