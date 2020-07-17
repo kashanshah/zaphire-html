@@ -24,6 +24,7 @@ function scrollBarInit() {
     scroll = Scrollbar.init(
         document.querySelector(".scroll-wrapper"), {
             syncCallbacks: true,
+            alwaysShowTracks: true
         }
     );
 
