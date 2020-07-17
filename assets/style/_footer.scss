@@ -76,7 +76,9 @@ footer {
     position: relative;
 
     input {
-      font-family: 'Poppins', sans-serif;
+      -webkit-appearance: none;
+      @include borderRadius(0);
+      box-shadow: 0 0 0 #000;
       width: 100%;
       padding: 16px 0;
       background: transparent;
