@@ -10,6 +10,13 @@
     }
   }
 
+  &.uppdots-sec{
+    margin-top: em(-60);
+  }
+  &.downdots-sec{
+    margin-bottom: em(60);
+  }
+
   h2 {
     color: #0F0A1E;
   }
@@ -125,18 +132,16 @@
 
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 767px) {
-
   .content-sec {
     text-align: center;
     padding: 30px 0;
-    &.dotted-bg {
+    &.uppdots-sec{
+      margin-top: 0;
     }
-
     img {
       margin: 0 0 15px;
       max-width: 190px;
     }
-
     ul.circle-ul {
       li {
         bottom: em(60);
@@ -167,5 +172,4 @@
       }
     }
   }
-
 }

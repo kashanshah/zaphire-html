@@ -83,7 +83,7 @@
             </div>
         </div>
     </section>
-    <section class="content-sec dotted-bg">
+    <section class="content-sec dotted-bg uppdots-sec">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6 order-md-1 animate" data-animation="fadeIn" data-duration="250">
@@ -100,7 +100,7 @@
             </div>
         </div>
     </section>
-    <section class="content-sec dotted-bg">
+    <section class="content-sec dotted-bg downdots-sec">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6 order-md-0 text-md-right animate" data-animation="fadeIn" data-duration="250"><img src="assets/images/img-1.png" alt="" class="img-fluid"></div>
