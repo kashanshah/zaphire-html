@@ -14,8 +14,8 @@
 					<li>&copy; 2020 Zaphire. All right reserved</li>
 				</ul>
 			</div>
-			<div class="col-md-2 text-center">
-                <img src="assets/images/footer-logo.png" alt="" class="img-fluid footer-mob-logo">
+			<div class="col-md-2 text-center mob-spacer">
+                <img src="assets/images/logo-footer-mob.png" alt="" class="img-fluid footer-mob-logo">
 			</div>
 			<div class="col-md-5">
 				<h6>GET EMAIL UPDATES</h6>
