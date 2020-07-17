@@ -83,7 +83,7 @@
             </div>
         </div>
     </section>
-    <section class="content-sec dotted-bg">
+    <section class="content-sec dotted-bg" id="bubble-sec-1">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6 order-md-1 animate" data-animation="fadeInUp" data-duration="500">
@@ -103,7 +103,7 @@
     <section class="content-sec dotted-bg">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-md-6 order-md-0 animate" data-animation="fadeInUp" data-duration="500"><img src="assets/images/img-1.png" alt="" class="img-fluid"></div>
+                <div class="col-md-6 order-md-0 text-md-right animate" data-animation="fadeInUp" data-duration="500"><img src="assets/images/img-1.png" alt="" class="img-fluid"></div>
                 <div class="col-md-6">
                     <h2 class="animate" data-animation="fadeInUp" data-duration="500">Believe the new Change</h2>
                     <p class="animate" data-animation="fadeInUp" data-duration="700">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -209,7 +209,7 @@
     <section class="content-sec">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-md-6 order-md-0 animate" data-animation="fadeInUp" data-duration="500">
+                <div class="col-md-6 order-md-0 text-md-right animate" data-animation="fadeInUp" data-duration="500">
                     <img src="assets/images/img-5.png" alt="" class="img-fluid">
                 </div>
                 <div class="col-md-6">
@@ -242,7 +242,7 @@
     <section class="content-sec">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-md-6 order-md-0 animate" data-animation="fadeInUp" data-duration="500"><img src="assets/images/img-5.png" alt="" class="img-fluid"></div>
+                <div class="col-md-6 order-md-0 text-md-right animate" data-animation="fadeInUp" data-duration="500"><img src="assets/images/img-5.png" alt="" class="img-fluid"></div>
                 <div class="col-md-6">
                     <h2 class="animate" data-animation="fadeInUp" data-duration="500">Translate</h2>
                     <p class="animate" data-animation="fadeInUp" data-duration="700">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>

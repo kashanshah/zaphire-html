@@ -29,6 +29,7 @@
 <!--<link rel="manifest" href="site.webmanifest">-->
 <meta name="HandheldFriendly" content="True">
 <link rel="stylesheet" href="assets/css/style.css?v=<?php echo time(); ?>">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
 <!--[if IE]>
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->

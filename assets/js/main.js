@@ -18,19 +18,62 @@ function isScrolledIntoView(elem) {
 }
 
 function scrollBarInit() {
+    // Scrollbar.initAll();
     var y = 0;
     // initial smooth-scrollbar
+    let scenes = [];
+    let isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
     scroll = Scrollbar.init(
         document.querySelector(".scroll-wrapper"), {
             syncCallbacks: true,
         }
     );
+    // initiate ScrollMagic Controller
+    let controller =
+        new ScrollMagic.Controller(
+            {
+                refreshInterval: 0,
+            }
+        );
+    // update scrollY controller
+    if (isChrome) {
+        controller.scrollPos(function () {
+            return y;
+        });
+    }
+    // initiate ScrollMagic Scene each section
+    $(".circle-ul").each(function () {
+console.log("ASD");
+        let parentSec = $(this).closest("section").get(0);
+        let heading1 = $(this).find("li");
 
-    Scrollbar.initAll();
-    $("#menu").on("click", "a", function (e) {
-        e.preventDefault();
-        y = $($(this).attr("href")).offset().top + scroll.offset.y;
-        scroll.scrollTo(0, y, 1500);
+        let tl = new TimelineMax();
+        tl.fromTo(".circle-ul", 1,
+            {autoAlpha: 0.5, xPercent: 30, duration: 0.2, ease: "none"},
+            {autoAlpha: 1, xPercent: -130, ease: "none"});
+
+        scenes.push(
+            new ScrollMagic
+                .Scene(
+                    {
+                        offset: 250,
+                        triggerHook: "onEnter",
+                        triggerElement: parentSec,
+                        duration: $(window).height() + 750,
+                        reverse: true
+                    })
+                .setTween(tl)
+                .on("leave", function () {
+                    console.log('leave scene');
+                })
+                .on("enter", function () {
+                    console.log('enter scene');
+                })
+                .on("progress", function (e) {
+                    console.log("progress => ", e.progress);
+                })
+                .addTo(controller)
+        );
     });
 
     var prevscrollPosition = 0;
@@ -49,12 +92,27 @@ function scrollBarInit() {
                 $("header").removeClass("fixed-going-down");
                 $("header").addClass("fixed-going-up");
             }
-        } else {
+        }
+        else {
             $("header").removeClass("fixed");
             // $(".fx-cnt").addClass("container").removeClass('container-fluid');
         }
         prevscrollPosition = scrollPosition;
+
+        if (isChrome) {
+            controller.update();
+        } else {
+            scenes.forEach(function (scene) {
+                scene.refresh();
+            });
+        }
     });
+    $("#menu").on("click", "a", function (e) {
+        e.preventDefault();
+        y = $($(this).attr("href")).offset().top + scroll.offset.y;
+        scroll.scrollTo(0, y, 1500);
+    });
+
 }
 
 function animateElements() {
@@ -409,8 +467,8 @@ $(document).ready(function () {
 
     if($(".dotted-bg-img").length){
         var dotsAnim = gsap.timeline({yoyo: true, paused: false, repeat: -1}).timeScale(0.1);
+        dotsAnim.fromTo(".dotted-bg-img", {autoAlpha: 0, duration: 1}, {autoAlpha: 1}, 0);
         dotsAnim.fromTo(".dotted-bg-img.purple", {autoAlpha: 1, duration: 1}, {autoAlpha: 0}, 0);
-        dotsAnim.fromTo(".dotted-bg-img.white", {autoAlpha: 0, duration: 1}, {autoAlpha: 1}, 0);
     }
 
 
