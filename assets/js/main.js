@@ -19,7 +19,7 @@ function isScrolledIntoView(elem) {
 
 function scrollBarInit() {
     // Scrollbar.initAll();
-    var y = 0;
+    var scrollPosition = 0;
     // initial smooth-scrollbar
     let scenes = [];
     let isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
@@ -38,19 +38,18 @@ function scrollBarInit() {
     // update scrollY controller
     if (isChrome) {
         controller.scrollPos(function () {
-            return y;
+            return scrollPosition;
         });
     }
     // initiate ScrollMagic Scene each section
-    $(".circle-ul").each(function () {
+    $(".circle-part-v1").each(function () {
 console.log("ASD");
         let parentSec = $(this).closest("section").get(0);
-        let heading1 = $(this).find("li");
 
-        let tl = new TimelineMax();
-        tl.fromTo(".circle-ul", 1,
-            {autoAlpha: 0.5, xPercent: 30, duration: 0.2, ease: "none"},
-            {autoAlpha: 1, xPercent: -130, ease: "none"});
+        var tl = new TimelineMax();
+        tl.fromTo($(this).get(0), 1,
+            {autoAlpha: 0.5, yPercent: -250, xPercent: 50, scale: 1, duration: 0.2},
+            {autoAlpha: 1, yPercent: 50, scale: 0.5, xPercent: 0});
 
         scenes.push(
             new ScrollMagic
@@ -79,7 +78,7 @@ console.log("ASD");
     var prevscrollPosition = 0;
     scroll.addListener((status) => {
         scroll.setPosition(0, status.offset.y);
-        var scrollPosition = status.offset.y;
+        scrollPosition = status.offset.y;
 
         if (scrollPosition >= 50){
             $("header").addClass("fixed");
@@ -101,6 +100,7 @@ console.log("ASD");
 
         if (isChrome) {
             controller.update();
+            console.log("asdasd");
         } else {
             scenes.forEach(function (scene) {
                 scene.refresh();

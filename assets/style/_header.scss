@@ -160,6 +160,7 @@ header{
   width: 100vw;
   overflow: auto;
   //background: linear-gradient(135deg,#38b8f2 0,#843cf6 100%);
+  transform: translateY(-100%);
   background: #161544;
   z-index: 2;
 }

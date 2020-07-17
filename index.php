@@ -88,10 +88,8 @@
             <div class="row align-items-center">
                 <div class="col-md-6 order-md-1 animate" data-animation="fadeInUp" data-duration="500">
                 	<img src="assets/images/img-2.png" alt="" class="img-fluid">
-                	<ul class="circle-ul">
-                		<li></li>
-                		<li></li>
-                	</ul>
+                    <div class="circle-part circle-part-v1"></div>
+                    <div class="circle-part circle-part-v1"></div>
                 </div>
                 <div class="col-md-5">
                     <h2 class="animate" data-animation="fadeInUp" data-duration="500">Immersive experience of hiring real people</h2>
@@ -130,17 +128,17 @@
 							<div class="row">
 								<div class="col-md-12 text-center">
                                     <div id="jobseeker" class="tab-innr active">
-    									<img class="mb-4 img-fluid" src="assets/images/tab-1.png" alt="">
+    									<img class="mb-4 img-fluid" src="assets/images/job-seeker.png" alt="">
                                         <h2>Lorem ipsum dolor sit</h2>
                                         <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                                     </div>
                                     <div id="employers" class="tab-innr">
-                                        <img class="mb-4 img-fluid" src="assets/images/tab-2.png" alt="">
+                                        <img class="mb-4 img-fluid" src="assets/images/employer.png" alt="">
                                         <h2>Lorem ipsum dolor sit</h2>
                                         <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                                     </div>
                                     <div id="recruiters" class="tab-innr">
-                                        <img class="mb-4 img-fluid" src="assets/images/tab-1.png" alt="">
+                                        <img class="mb-4 img-fluid" src="assets/images/recruiter.png" alt="">
                                         <h2>Lorem ipsum dolor sit</h2>
                                         <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                                     </div>
@@ -191,12 +189,10 @@
             <div class="row align-items-center">
                 <div class="col-md-6 order-md-1 animate" data-animation="fadeInUp" data-duration="500">
                     <img src="assets/images/img-4.png" alt="" class="img-fluid">
-                    <ul class="circle-ul circle-v2">
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
+                    <div class="circle-part circle-part-v2"></div>
+                    <div class="circle-part circle-part-v2"></div>
+                    <div class="circle-part circle-part-v2"></div>
+                    <div class="circle-part circle-part-v2"></div>
                 </div>
                 <div class="col-md-6">
                     <h2 class="animate" data-animation="fadeInUp" data-duration="500">Reach</h2>
@@ -225,11 +221,9 @@
             <div class="row align-items-center">
                 <div class="col-md-6 order-md-1 animate" data-animation="fadeInUp" data-duration="500">
                     <img src="assets/images/img-6.png" alt="" class="img-fluid">
-                    <ul class="circle-ul circle-v2 v3">
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
+                    <div class="circle-part circle-part-v3"></div>
+                    <div class="circle-part circle-part-v3"></div>
+                    <div class="circle-part circle-part-v3"></div>
                 </div>
                 <div class="col-md-6">
                     <h2 class="animate" data-animation="fadeInUp" data-duration="500">Stream</h2>
