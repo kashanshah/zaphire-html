@@ -83,13 +83,15 @@
             </div>
         </div>
     </section>
-    <section class="content-sec dotted-bg" id="bubble-sec-1">
+    <section class="content-sec dotted-bg">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6 order-md-1 animate" data-animation="fadeInUp" data-duration="500">
                 	<img src="assets/images/img-2.png" alt="" class="img-fluid">
-                    <div class="circle-part circle-part-v1"></div>
-                    <div class="circle-part circle-part-v1"></div>
+                	<ul class="circle-ul">
+                		<li></li>
+                		<li></li>
+                	</ul>
                 </div>
                 <div class="col-md-5">
                     <h2 class="animate" data-animation="fadeInUp" data-duration="500">Immersive experience of hiring real people</h2>
@@ -110,25 +112,25 @@
         </div>
     </section>
 
-	<section class="tab-sec">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<h1 class="mb-5 text-center animate" data-animation="fadeInUp" data-duration="500">Simplifying human <br class="d-none d-lg-block">expression in real-time</h1>
-					<div class="tab-mn">
-						<div class="tab-head animate" data-animation="fadeInUp" data-duration="500">
-							<ul>
-								<li><a data-tag="jobseeker" class="active" href="javascript:;">Jobseeker</a></li>
-								<li><a data-tag="employers" href="javascript:;">Employers</a></li>
-								<li><a data-tag="recruiters" href="javascript:;">Recruiters</a></li>
-								<li><a data-tag="coach" href="javascript:;">Coach</a></li>
-							</ul>
-						</div>
-						<div class="tab-content animate" data-animation="fadeInUp" data-duration="500">
-							<div class="row">
-								<div class="col-md-12 text-center">
+    <section class="tab-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="mb-5 text-center animate" data-animation="fadeInUp" data-duration="500">Simplifying human <br class="d-none d-lg-block">expression in real-time</h1>
+                    <div class="tab-mn">
+                        <div class="tab-head animate" data-animation="fadeInUp" data-duration="500">
+                            <ul>
+                                <li><a data-tag="jobseeker" class="active" href="javascript:;">Jobseeker</a></li>
+                                <li><a data-tag="employers" href="javascript:;">Employers</a></li>
+                                <li><a data-tag="recruiters" href="javascript:;">Recruiters</a></li>
+                                <li><a data-tag="coach" href="javascript:;">Coach</a></li>
+                            </ul>
+                        </div>
+                        <div class="tab-content animate" data-animation="fadeInUp" data-duration="500">
+                            <div class="row">
+                                <div class="col-md-12 text-center">
                                     <div id="jobseeker" class="tab-innr active">
-    									<img class="mb-4 img-fluid" src="assets/images/job-seeker.png" alt="">
+                                        <img class="mb-4 img-fluid" src="assets/images/job-seeker.png" alt="">
                                         <h2>Lorem ipsum dolor sit</h2>
                                         <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                                     </div>
@@ -147,14 +149,14 @@
                                         <h2>Lorem ipsum dolor sit</h2>
                                         <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                                     </div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section class="box-sec text-center mb-5">
         <div class="container">
@@ -189,10 +191,12 @@
             <div class="row align-items-center">
                 <div class="col-md-6 order-md-1 animate" data-animation="fadeInUp" data-duration="500">
                     <img src="assets/images/img-4.png" alt="" class="img-fluid">
-                    <div class="circle-part circle-part-v2"></div>
-                    <div class="circle-part circle-part-v2"></div>
-                    <div class="circle-part circle-part-v2"></div>
-                    <div class="circle-part circle-part-v2"></div>
+                    <ul class="circle-ul circle-v2">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
                 </div>
                 <div class="col-md-6">
                     <h2 class="animate" data-animation="fadeInUp" data-duration="500">Reach</h2>
@@ -221,9 +225,11 @@
             <div class="row align-items-center">
                 <div class="col-md-6 order-md-1 animate" data-animation="fadeInUp" data-duration="500">
                     <img src="assets/images/img-6.png" alt="" class="img-fluid">
-                    <div class="circle-part circle-part-v3"></div>
-                    <div class="circle-part circle-part-v3"></div>
-                    <div class="circle-part circle-part-v3"></div>
+                    <ul class="circle-ul circle-v2 v3">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
                 </div>
                 <div class="col-md-6">
                     <h2 class="animate" data-animation="fadeInUp" data-duration="500">Stream</h2>

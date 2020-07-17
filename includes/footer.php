@@ -1,8 +1,10 @@
 <footer>
-    <img src="assets/svgs/footer-logo-svg.svg" alt="" class="img-fluid footer-logo">
+    <div class="footer-light-bg">
+        <img src="assets/images/footer-logo.png" alt="" class="img-fluid footer-logo">
+    </div>
 	<div class="container">
 		<div class="row">
-			<div class="col-md-4 first-half">
+			<div class="col-md-5 first-half">
 				<h4>Fanatics for Fairness</h4>
 				<ul>
 					<li><a href="mailto:hello@zaphire.com" target="_blank">hello@zaphire.com</a></li>
@@ -12,8 +14,8 @@
 					<li>&copy; 2020 Zaphire. All right reserved</li>
 				</ul>
 			</div>
-			<div class="col-md-3 text-center">
-				<img src="assets/svgs/footer-logo-svg-mob.svg" alt="" class="img-fluid footer-mob-logo">
+			<div class="col-md-2 text-center">
+                <img src="assets/images/footer-logo.png" alt="" class="img-fluid footer-mob-logo">
 			</div>
 			<div class="col-md-5">
 				<h6>GET EMAIL UPDATES</h6>

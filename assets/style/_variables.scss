@@ -47,8 +47,10 @@ $theme-colors: map-merge(
 );
 
 
-$font-family-base: $gilroy;
-$headings-font-family: $gilroy;
+$font-family-base: 'Roboto', sans-serif;
+//$font-family-base: $gilroy;
+$headings-font-family: 'Roboto', sans-serif;
+//$headings-font-family: $gilroy;
 $line-height-base: 1.33;
 $font-size-base: 16;
 $headings-color: $black;
