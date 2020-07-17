@@ -10,7 +10,7 @@ footer {
     top: 0;
     position: absolute;
     background: rgba($white, 0.05);
-
+    @include transition(.5s);
     .footer-logo {
       max-width: 100%;
       position: absolute;
@@ -123,6 +123,26 @@ footer {
     }
   }
 
+}
+
+
+// Extra small devices (portrait phones, less than 576px)
+@media (min-width: 1200px) {
+  .footer-light-bg{
+    width: 0;
+    .footer-logo{
+      opacity: 0;
+      @include transition(.25s);
+      transition-delay: .5s;
+    }
+    &.footer-bg-anim{
+      width: 45%;
+      .footer-logo{
+        opacity: 1;
+      }
+    }
+
+  }
 }
 
 

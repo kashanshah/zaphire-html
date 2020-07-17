@@ -1,5 +1,5 @@
 <footer>
-    <div class="footer-light-bg">
+    <div class="footer-light-bg animate" data-animation="footer-bg-anim">
         <img src="assets/images/footer-logo.png" alt="" class="img-fluid footer-logo">
     </div>
 	<div class="container">
