@@ -21,7 +21,7 @@
                 </div>
                 <div class="col-md-5 text-center text-md-right">
                     <video class="banner-video animate" data-animation="fadeIn" data-duration="700" autoplay loop muted playsinline>
-                        <source src="assets/video/banner-<?php echo isset($_GET["video"]) ? $_GET["video"] : 'medium'; ?>.mp4" type="video/mp4" />
+                        <source src="assets/video/banner-video-middle-new.mp4" type="video/mp4" />
                     </video>
                 </div>
             </div>
