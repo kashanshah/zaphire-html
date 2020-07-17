@@ -13,14 +13,14 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-7">
-                    <h1 class="animate" data-animation="fadeInUp" data-duration="500">Making it easy for your value to be seen.</h1>
-                    <p class="animate" data-animation="fadeInUp" data-duration="700">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
-                    <div class="animate" data-animation="fadeInUp" data-duration="900">
+                    <h1>Making it easy for your value to be seen.</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                    <div>
                         <a href="#" class="btn btn-primary"><span>Pilot Sign Up</span></a>
                     </div>
                 </div>
                 <div class="col-md-5 text-center text-md-right">
-                    <video class="banner-video animate" data-animation="fadeIn" data-duration="700" autoplay loop muted playsinline>
+                    <video class="banner-video" autoplay loop muted playsinline>
                         <source src="assets/video/banner-video-middle-new.mp4" type="video/mp4" />
                     </video>
                 </div>
