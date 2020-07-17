@@ -426,7 +426,7 @@ $(document).ready(function () {
 
             // loop over all DIV elements
             divs.forEach((div) => {
-                div.style.transition = (rand(100) + 900) + 'ms';
+                // div.style.transition = (rand(100) + 900) + 'ms';
 
                 var colorsArray = ["#C4C4C4", "#C4C4C4", "#dc4e40", "#5dc236"];
                 // apply random colour
