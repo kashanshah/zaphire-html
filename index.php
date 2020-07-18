@@ -10,6 +10,12 @@
 <?php include("includes/header.php"); ?>
 <main id="container" class="scroll-wrapper">
     <section class="main-banner">
+        <div class="wave-mn">
+            <div class="wave-4"></div>
+            <div class="wave-3"></div>
+            <div class="wave-2"></div>
+            <div class="wave-1"></div>
+        </div>
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-7">
