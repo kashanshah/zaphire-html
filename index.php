@@ -19,10 +19,10 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-7">
-                    <h1>Making it easy for your value to be seen.</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                    <h1>Professional Connections With Real People In Real Time</h1>
+                    <p>Find, share & create opportunities anywhere, anytime with live interactive video.</p>
                     <div>
-                        <a href="#" class="btn btn-primary"><span>Pilot Sign Up</span></a>
+                        <a href="#" class="btn btn-primary"><span>Qualify For Pilot</span></a>
                     </div>
                 </div>
                 <div class="col-md-5 text-center text-md-right">
@@ -44,7 +44,7 @@
                         </div>
                         <div class="info-text">
                             <h4>Live Connection</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                            <p>Real-time meaningful connection with people</p>
                         </div>
                     </div>
                 </div>
@@ -55,7 +55,7 @@
                         </div>
                         <div class="info-text">
                             <h4>Live Engagement</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                            <p>Drive deeper engagement with your network</p>
                         </div>
                     </div>
                 </div>
@@ -66,7 +66,7 @@
                         </div>
                         <div class="info-text">
                             <h4>Live Community</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                            <p>Interact, share, and learn with your community in real-time</p>
                         </div>
                     </div>
                 </div>
@@ -232,8 +232,8 @@
                     <img src="assets/images/img-1.png" alt="" class="img-fluid">
                 </div>
                 <div class="col-md-5 offset-md-1">
-                    <h2 class="animate" data-animation="fadeIn" data-duration="5">Make Real Connections</h2>
-                    <p class="animate" data-animation="fadeIn" data-duration="5">Lorem ipsum dolor sit amet,<br class="d-none d-md-block"/> consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <h2 class="animate" data-animation="fadeIn" data-duration="5">Make Connections With Real People</h2>
+                    <p class="animate" data-animation="fadeIn" data-duration="5">There’s a person behind every digital profile - including yours! Be seen, be heard, and be recognized in the global stage. </p>
                 </div>
             </div>
         </div>
@@ -249,8 +249,8 @@
                 	</ul>
                 </div>
                 <div class="col-md-5">
-                    <h2 class="animate" data-animation="fadeIn" data-duration="5">Immersive experience of hiring real people</h2>
-                    <p class="animate" data-animation="fadeIn" data-duration="5">Lorem ipsum dolor sit amet,<br class="d-none d-md-block"/> consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <h2 class="animate" data-animation="fadeIn" data-duration="5">Interact With Opportunities In Real Time</h2>
+                    <p class="animate" data-animation="fadeIn" data-duration="5">Discover real opportunities and real talent that cannot be written between the lines. Simplify human expression in real-time, and unleash opportunity for all. </p>
                 </div>
             </div>
         </div>
@@ -260,8 +260,8 @@
             <div class="row align-items-center">
                 <div class="col-md-6 order-md-0 text-md-right animate" data-animation="fadeIn" data-duration="5"><img src="assets/images/img-1.png" alt="" class="img-fluid"></div>
                 <div class="col-md-6">
-                    <h2 class="animate" data-animation="fadeIn" data-duration="5">Believe the new Change</h2>
-                    <p class="animate" data-animation="fadeIn" data-duration="5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <h2 class="animate" data-animation="fadeIn" data-duration="5">Be That Authentic Professional Influencer</h2>
+                    <p class="animate" data-animation="fadeIn" data-duration="5">Teach, coach, and share your content with your global audience in multiple languages. Motivate people to discover their potential in real-time. </p>
                 </div>
             </div>
         </div>
@@ -271,14 +271,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h1 class="mb-5 text-center animate" data-animation="fadeIn" data-duration="5">Simplifying human <br class="d-none d-lg-block">expression in real-time</h1>
+                    <h1 class="mb-5 text-center animate" data-animation="fadeIn" data-duration="5">Professional Video <br class="d-none d-lg-block">Live Streaming For Everyone.</h1>
                     <div class="tab-mn">
                         <div class="tab-head animate" data-animation="fadeIn" data-duration="5">
                             <ul>
-                                <li><a data-tag="jobseeker" class="active" href="javascript:;">Jobseeker</a></li>
+                                <li><a data-tag="jobseeker" class="active" href="javascript:;">Jobseekers</a></li>
                                 <li><a data-tag="employers" href="javascript:;">Employers</a></li>
                                 <li><a data-tag="recruiters" href="javascript:;">Recruiters</a></li>
-                                <li><a data-tag="coach" href="javascript:;">Coach</a></li>
+                                <li><a data-tag="influencers" href="javascript:;">Influencers</a></li>
                             </ul>
                         </div>
                         <div class="tab-content animate" data-animation="fadeIn" data-duration="5">
@@ -286,23 +286,23 @@
                                 <div class="col-md-12 text-center">
                                     <div id="jobseeker" class="tab-innr active">
                                         <img class="mb-4 img-fluid" src="assets/images/job-seeker.png" alt="">
-                                        <h2>Lorem ipsum dolor sit</h2>
-                                        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                                        <h2>Find opportunities, not job postings</h2>
+                                        <p class="mb-0">Be yourself and showcase your talents. Be discovered by companies that value you. Create your future.</p>
                                     </div>
                                     <div id="employers" class="tab-innr">
                                         <img class="mb-4 img-fluid" src="assets/images/employer.png" alt="">
-                                        <h2>Lorem ipsum dolor sit</h2>
-                                        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                                        <h2>Hire people, not profiles</h2>
+                                        <p class="mb-0">See your candidates, their personality, and their savviness. Increase your probability of success to get your ideal hire on time with less cost.</p>
                                     </div>
                                     <div id="recruiters" class="tab-innr">
                                         <img class="mb-4 img-fluid" src="assets/images/recruiter.png" alt="">
-                                        <h2>Lorem ipsum dolor sit</h2>
-                                        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                                        <h2>Recruit people, not resumes</h2>
+                                        <p class="mb-0">Extend your global reach and boost your access to real talent. Publish engaging job posts and discover limitless opportunities at your fingertips.</p>
                                     </div>
-                                    <div id="coach" class="tab-innr">
+                                    <div id="influencers" class="tab-innr">
                                         <img class="mb-4 img-fluid" src="assets/images/tab-1.png" alt="">
-                                        <h2>Lorem ipsum dolor sit</h2>
-                                        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                                        <h2>Teach people, unleash their potential</h2>
+                                        <p class="mb-0">Share your content with your targeted audience anytime, anywhere. Create new revenue streams with live interactive experiences.</p>
                                     </div>
                                 </div>
                             </div>
@@ -319,22 +319,22 @@
                 <div class="col-md-4">
                     <div class="box animate" data-animation="fadeIn" data-duration="5">
                         <img class="img-fluid" src="assets/images/box-01.png" alt="">
-                        <h6>Virtual Career</h6>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        <h6>Career Fair</h6>
+                        <p>Make it easier to attract global talent and find global opportunities</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="box animate" data-animation="fadeIn" data-duration="5">
                         <img class="img-fluid" src="assets/images/box-02.png" alt="">
-                        <h6>Virtual Career</h6>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        <h6>Learning</h6>
+                        <p>Upgrade learning experiences by engaging your audience in real-time</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="box animate" data-animation="fadeIn" data-duration="5">
                         <img class="img-fluid" src="assets/images/box-03.png" alt="">
-                        <h6>Virtual Career</h6>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        <h6>Events</h6>
+                        <p>Broaden your reach, increase attendance rate and audience retention</p>
                     </div>
                 </div>
             </div>
@@ -354,8 +354,8 @@
                     </ul>
                 </div>
                 <div class="col-md-6">
-                    <h2 class="animate" data-animation="fadeIn" data-duration="5">Reach</h2>
-                    <p class="animate" data-animation="fadeIn" data-duration="5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <h2 class="animate" data-animation="fadeIn" data-duration="5">Reach over 1 million</h2>
+                    <p class="animate" data-animation="fadeIn" data-duration="5">Connect with audience at scale in real-time. Discover new and exciting ways to connect with opportunities.</p>
                 </div>
             </div>
         </div>
@@ -368,8 +368,8 @@
                     <img src="assets/images/img-5.png" alt="" class="img-fluid">
                 </div>
                 <div class="col-md-6">
-                    <h2 class="animate" data-animation="fadeIn" data-duration="5">Co-host</h2>
-                    <p class="animate" data-animation="fadeIn" data-duration="5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <h2 class="animate" data-animation="fadeIn" data-duration="5">Co-host up to 4</h2>
+                    <p class="animate" data-animation="fadeIn" data-duration="5">Invite your co-workers, friends, or live audience to share the stage with you in real-time. Increase audience engagement and improve interactivity</p>
                 </div>
             </div>
         </div>
@@ -387,8 +387,8 @@
                     </ul>
                 </div>
                 <div class="col-md-6">
-                    <h2 class="animate" data-animation="fadeIn" data-duration="5">Stream</h2>
-                    <p class="animate" data-animation="fadeIn" data-duration="5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <h2 class="animate" data-animation="fadeIn" data-duration="5">Super power in your hands</h2>
+                    <p class="animate" data-animation="fadeIn" data-duration="5">Video live streaming is just a few clicks away; finding opportunities could be a few minutes away. Go live, and show yourself to the world.</p>
                 </div>
             </div>
         </div>
@@ -399,8 +399,8 @@
             <div class="row align-items-center">
                 <div class="col-md-6 order-md-0 text-md-right animate" data-animation="fadeIn" data-duration="5"><img src="assets/images/img-5.png" alt="" class="img-fluid"></div>
                 <div class="col-md-6">
-                    <h2 class="animate" data-animation="fadeIn" data-duration="5">Translate</h2>
-                    <p class="animate" data-animation="fadeIn" data-duration="5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <h2 class="animate" data-animation="fadeIn" data-duration="5">Transcribe, Translate, Localize</h2>
+                    <p class="animate" data-animation="fadeIn" data-duration="5">Access opportunity anywhere in the world with translation and localization capabilities. Break down the language barriers that make discovering talent & landing a job difficult.</p>
                 </div>
             </div>
         </div>
@@ -411,8 +411,8 @@
             <div class="row align-items-center">
                 <div class="col-md-6 order-md-1 animate" data-animation="fadeIn" data-duration="5"><img src="assets/images/img-7.png" alt="" class="img-fluid"></div>
                 <div class="col-md-6">
-                    <h2 class="animate" data-animation="fadeIn" data-duration="5">Ever live</h2>
-                    <p class="animate" data-animation="fadeIn" data-duration="5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <h2 class="animate" data-animation="fadeIn" data-duration="5">Video on Demand</h2>
+                    <p class="animate" data-animation="fadeIn" data-duration="5">All your live-streamed content gets recorded to be viewed by your audience at any time. Increase visibility and lifetime of your live stream, plus, you have full control over who can see it.</p>
                 </div>
             </div>
         </div>
@@ -423,9 +423,9 @@
             <div class="row">
                 <div class="col-md-12 text-center animate" data-animation="fadeIn" data-duration="5">
                     <div class="cta-mn">
-                        <h2 class=" animate" data-animation="fadeIn" data-duration="5">Lorem ipsum dolor sit amet, consectetur adipiscing</h2>
+                        <h2 class=" animate" data-animation="fadeIn" data-duration="5">Get early access to the world’s first professional video live streaming network.</h2>
                     </div>
-                    <a href="#" class="btn btn-primary animate" data-animation="fadeIn" data-duration="5"><span>Sign Up for Pilot Now</span></a>
+                    <a href="#" class="btn btn-primary animate" data-animation="fadeIn" data-duration="5"><span>Qualify for Pilot Now</span></a>
                 </div>
             </div>
         </div>

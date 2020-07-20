@@ -22,10 +22,6 @@
 <meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
 
-<meta name="msapplication-TileColor" content="#cf254a">
-<meta name="theme-color" content="#cf254a">
-<meta name="msapplication-TileImage" content="Content/images/mstile-144x144.png">
-
 <!--<link rel="manifest" href="site.webmanifest">-->
 <meta name="HandheldFriendly" content="True">
 <link rel="stylesheet" href="assets/css/style.css?v=<?php echo time(); ?>">
