@@ -19,8 +19,8 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-7">
-                    <h1>Professional Connections With Real People In Real Time</h1>
-                    <p>Find, share & create opportunities anywhere, anytime with live interactive video.</p>
+                    <h1>Professional Connections With Real People In Real-Time</h1>
+                    <p>Find, share, create opportunities anywhere, anytime with live interactive video.</p>
                     <div>
                         <a href="#" class="btn btn-primary"><span>Qualify For Pilot</span></a>
                     </div>
@@ -44,7 +44,7 @@
                         </div>
                         <div class="info-text">
                             <h4>Live Connection</h4>
-                            <p>Real-time meaningful connection with people</p>
+                            <p>Real-time meaningful connections with people</p>
                         </div>
                     </div>
                 </div>
@@ -233,7 +233,7 @@
                 </div>
                 <div class="col-md-5 offset-md-1">
                     <h2 class="animate" data-animation="fadeIn" data-duration="5">Make Connections With Real People</h2>
-                    <p class="animate" data-animation="fadeIn" data-duration="5">There’s a person behind every digital profile - including yours! Be seen, be heard, and be recognized in the global stage. </p>
+                    <p class="animate" data-animation="fadeIn" data-duration="5">There’s a person behind every digital profile - including yours! Be seen, be heard, and be recognized on the global stage. </p>
                 </div>
             </div>
         </div>
@@ -249,8 +249,8 @@
                 	</ul>
                 </div>
                 <div class="col-md-5">
-                    <h2 class="animate" data-animation="fadeIn" data-duration="5">Interact With Opportunities In Real Time</h2>
-                    <p class="animate" data-animation="fadeIn" data-duration="5">Discover real opportunities and real talent that cannot be written between the lines. Simplify human expression in real-time, and unleash opportunity for all. </p>
+                    <h2 class="animate" data-animation="fadeIn" data-duration="5">Interact With Opportunities In Real-Time</h2>
+                    <p class="animate" data-animation="fadeIn" data-duration="5">Discover real opportunities and real talent. Simplify human expression in real-time, and unleash opportunity for all. </p>
                 </div>
             </div>
         </div>
@@ -258,10 +258,10 @@
     <section class="content-sec dotted-bg downdots-sec">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-md-6 order-md-0 text-md-right animate" data-animation="fadeIn" data-duration="5"><img src="assets/images/img-1.png" alt="" class="img-fluid"></div>
+                <div class="col-md-6 order-md-0 text-md-right animate" data-animation="fadeIn" data-duration="5"><img src="assets/images/img-3.png" alt="" class="img-fluid"></div>
                 <div class="col-md-6">
                     <h2 class="animate" data-animation="fadeIn" data-duration="5">Be That Authentic Professional Influencer</h2>
-                    <p class="animate" data-animation="fadeIn" data-duration="5">Teach, coach, and share your content with your global audience in multiple languages. Motivate people to discover their potential in real-time. </p>
+                    <p class="animate" data-animation="fadeIn" data-duration="5">Teach, coach, and share content with your global audience in multiple languages. Motivate people to discover their potential in real-time. </p>
                 </div>
             </div>
         </div>
@@ -271,7 +271,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h1 class="mb-5 text-center animate" data-animation="fadeIn" data-duration="5">Professional Video <br class="d-none d-lg-block">Live Streaming For Everyone.</h1>
+                    <h1 class="mb-5 text-center animate" data-animation="fadeIn" data-duration="5">Professional Video <br class="d-none d-lg-block">Live Streaming For Everyone</h1>
                     <div class="tab-mn">
                         <div class="tab-head animate" data-animation="fadeIn" data-duration="5">
                             <ul>
@@ -292,7 +292,7 @@
                                     <div id="employers" class="tab-innr">
                                         <img class="mb-4 img-fluid" src="assets/images/employer.png" alt="">
                                         <h2>Hire people, not profiles</h2>
-                                        <p class="mb-0">See your candidates, their personality, and their savviness. Increase your probability of success to get your ideal hire on time with less cost.</p>
+                                        <p class="mb-0">See your candidates, their personality, and suitability. Increase your probability of getting a successful hire on time with reduced cost.</p>
                                     </div>
                                     <div id="recruiters" class="tab-innr">
                                         <img class="mb-4 img-fluid" src="assets/images/recruiter.png" alt="">
@@ -369,7 +369,7 @@
                 </div>
                 <div class="col-md-6">
                     <h2 class="animate" data-animation="fadeIn" data-duration="5">Co-host up to 4</h2>
-                    <p class="animate" data-animation="fadeIn" data-duration="5">Invite your co-workers, friends, or live audience to share the stage with you in real-time. Increase audience engagement and improve interactivity</p>
+                    <p class="animate" data-animation="fadeIn" data-duration="5">Invite your co-workers, friends, or live audience to share the stage with you in real-time. Increase audience engagement and improve interactivity.</p>
                 </div>
             </div>
         </div>
@@ -388,7 +388,7 @@
                 </div>
                 <div class="col-md-6">
                     <h2 class="animate" data-animation="fadeIn" data-duration="5">Super power in your hands</h2>
-                    <p class="animate" data-animation="fadeIn" data-duration="5">Video live streaming is just a few clicks away; finding opportunities could be a few minutes away. Go live, and show yourself to the world.</p>
+                    <p class="animate" data-animation="fadeIn" data-duration="5">Video live streaming is just a few clicks away; finding opportunities could be a few minutes away. Go live and show yourself to the world.</p>
                 </div>
             </div>
         </div>
@@ -397,10 +397,10 @@
     <section class="content-sec">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-md-6 order-md-0 text-md-right animate" data-animation="fadeIn" data-duration="5"><img src="assets/images/img-5.png" alt="" class="img-fluid"></div>
+                <div class="col-md-6 order-md-0 text-md-right animate" data-animation="fadeIn" data-duration="5"><img src="assets/images/img-7.png" alt="" class="img-fluid"></div>
                 <div class="col-md-6">
                     <h2 class="animate" data-animation="fadeIn" data-duration="5">Transcribe, Translate, Localize</h2>
-                    <p class="animate" data-animation="fadeIn" data-duration="5">Access opportunity anywhere in the world with translation and localization capabilities. Break down the language barriers that make discovering talent & landing a job difficult.</p>
+                    <p class="animate" data-animation="fadeIn" data-duration="5">Access opportunity anywhere in the world with translation and localization capabilities. Break down the language barriers.</p>
                 </div>
             </div>
         </div>
@@ -409,10 +409,10 @@
     <section class="content-sec">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-md-6 order-md-1 animate" data-animation="fadeIn" data-duration="5"><img src="assets/images/img-7.png" alt="" class="img-fluid"></div>
+                <div class="col-md-6 order-md-1 animate" data-animation="fadeIn" data-duration="5"><img src="assets/images/img-8.png" alt="" class="img-fluid"></div>
                 <div class="col-md-6">
                     <h2 class="animate" data-animation="fadeIn" data-duration="5">Video on Demand</h2>
-                    <p class="animate" data-animation="fadeIn" data-duration="5">All your live-streamed content gets recorded to be viewed by your audience at any time. Increase visibility and lifetime of your live stream, plus, you have full control over who can see it.</p>
+                    <p class="animate" data-animation="fadeIn" data-duration="5">All of your live-streamed content is recorded and stored to be viewed by your audience anytime. Increase the visibility and lifetime of your live stream, and, have full control over who can see it.</p>
                 </div>
             </div>
         </div>
