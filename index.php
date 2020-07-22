@@ -22,7 +22,7 @@
                     <h1>Professional Connections With Real People In Real-Time</h1>
                     <p>Find, share, create opportunities anywhere, anytime with live interactive video.</p>
                     <div>
-                        <a href="#" class="btn btn-primary"><span>Qualify For Pilot</span></a>
+                        <a href="#" class="btn btn-primary popup-btn"><span>Qualify For Pilot</span></a>
                     </div>
                 </div>
                 <div class="col-md-5 text-center text-md-right">
@@ -434,6 +434,119 @@
     <?php include("includes/footer.php"); ?>
 </main>
 <?php include("includes/orientation-lock.php"); ?>
+
+
+<div class="popup-mn popup-01" style="display: none;">
+    <a href="javascript:;" class="close-btn popup-btn-close"></a>
+    <div class="row no-gutters">
+        <div class="col-md-4">
+            <div class="left-side px-4 py-5 h-100 text-center">
+                <h5>Congratulations!</h5>
+                <p>You qualify for the Zaphire Live Pilot. To finish your enrollment, please share details about yourself:</p>
+            </div>
+        </div>
+        <div class="col-md-8 px-4 py-5">
+            <form action="">
+                <div class="form-group">
+                    <label for="whtshouldcall">WHAT SHOULD WE CALL YOU?*</label>
+                    <input type="text" class="form-control" id="whtshouldcall" placeholder="First Name here">
+                </div>
+                <div class="form-group">
+                    <label for="whtshouldlastname">WHAT'S YOUR LAST NAME?*</label>
+                    <input type="text" class="form-control" id="whtshouldlastname" placeholder="Last Name here">
+                </div>
+                <div class="form-group">
+                    <label for="email">WE'LL EMAIL YOU BACK AS QUICKLY AS WE CAN*</label>
+                    <input type="email" class="form-control" id="email" placeholder="Last Name here">
+                </div>
+                <div class="form-group">
+                    <label for="country">WHERE ARE YOU FROM?</label>
+                    <select class="form-control" id="country">
+                        <option>Country</option>
+                        <option>Country</option>
+                        <option>Country</option>
+                        <option>Country</option>
+                        <option>Country</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="maycallyou">WE MAY EVEN CALL YOU*</label>
+                    <div class="d-flex">
+                        <select class="form-control w-50" id="">
+                            <option>Country Code</option>
+                            <option>Country Code</option>
+                            <option>Country Code</option>
+                            <option>Country Code</option>
+                            <option>Country Code</option>
+                        </select>
+                        <input type="text" class="form-control pl-3" id="maycallyou" placeholder="(888) - 888 -8888">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="whatdoyoudo">WHAT DO YOU DO?</label>
+                    <input type="text" class="form-control" id="whatdoyoudo" placeholder="Tell us something about your profession">
+                </div>
+                <div class="form-group">
+                    <label for="whatdolike">WHAT DO YOU LIKE?</label>
+                    <select class="form-control" id="whatdolike">
+                        <option>Choose an interest</option>
+                        <option>Choose an interest</option>
+                        <option>Choose an interest</option>
+                        <option>Choose an interest</option>
+                        <option>Choose an interest</option>
+                    </select>
+                </div>
+                <div class="form-group mb-4">
+                    <label for="industry">WHICH INDUSTRY DO YOU WORK IN?</label>
+                    <select class="form-control" id="whatdolike">
+                        <option>Choose an industry</option>
+                        <option>Choose an industry</option>
+                        <option>Choose an industry</option>
+                        <option>Choose an industry</option>
+                        <option>Choose an industry</option>
+                    </select>
+                </div>
+                <input type="submit" value="Submit" class="btn btn-primary">
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="popup-mn popup-02" style="display: none;">
+    <a href="javascript:;" class="close-btn popup-btn-close"></a>
+    <div class="row no-gutters">
+        <div class="col-md-4">
+            <div class="left-side px-4 py-5 h-100 text-center">
+                <h5>Thank you for your interest in being part of the 2 week pilot. <br>We can’t wait to</h5>
+            </div>
+        </div>
+        <div class="col-md-8">
+            <div class="bg-white px-4 pt-5 pb-2">
+                <p>If you qualify, you will receive <strong>PREMIUM subscription for 6 months for FREE</strong>, when we launch! That’s savings of over $100, with access to video live streaming with co-hosting capabilities.</p>
+            </div>
+            <div class="p-4 pr-5 pb-5">
+                <h6>To Qualify</h6>
+                <ul>
+                    <li>1. You must be 18 years old</li>
+                    <li>2. You must have an iPhone </li>
+                    <li>3. You must spend 15 mins/day creatively on the app for the duration of the pilot.</li>
+                    <li>4. You must document and share suggestions, ideas and defects via email.</li>
+                    <li>5. You must participate in 1 (one) moderated testing session to test the apap along with your fellow pilot enthusiast in real-time.</li>
+                </ul>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="checkbx">
+                    <label class="form-check-label" for="checkbx">
+                    I certify that I meet all of the above qualifications & can successfully complete the pilot for the duration of the program. I also agree to the privacy policy, terms of use and acceptable use policy of Zaphire. 
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="blackout" style="display: none;"></div>
+
+
 <?php include("includes/scripts.php"); ?>
 </body>
 </html>

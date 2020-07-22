@@ -319,6 +319,16 @@ $(document).ready(function () {
         $('#'+tagid).addClass('active').removeClass('hide');
     });
 
+    $('.popup-btn').click(function(){
+        $('.blackout').fadeIn();
+        $('.popup-01').fadeIn();
+    });
+
+    $('.popup-btn-close').click(function(){
+        $('.blackout').fadeOut();
+        $('.popup-mn').fadeOut();
+    });
+
    if (newsLetterForm.length) {
         newsLetterForm.formValidation({
             excluded: ':disabled',
