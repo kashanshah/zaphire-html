@@ -324,6 +324,11 @@ $(document).ready(function () {
         $('.popup-01').fadeIn();
     });
 
+    $('.popup-mn .btn.btn-primary').click(function(){
+        $('.popup-01').fadeOut();
+        $('.popup-02').fadeIn();
+    });
+
     $('.popup-btn-close').click(function(){
         $('.blackout').fadeOut();
         $('.popup-mn').fadeOut();

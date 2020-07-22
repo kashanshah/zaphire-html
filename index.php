@@ -446,7 +446,7 @@
             </div>
         </div>
         <div class="col-md-8 px-4 py-5">
-            <form action="">
+            <form action="javascript:;">
                 <div class="form-group">
                     <label for="whtshouldcall">WHAT SHOULD WE CALL YOU?*</label>
                     <input type="text" class="form-control" id="whtshouldcall" placeholder="First Name here">
