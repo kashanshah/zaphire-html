@@ -284,25 +284,27 @@
                         <div class="tab-content animate" data-animation="fadeIn" data-duration="5">
                             <div class="row">
                                 <div class="col-md-12 text-center">
-                                    <div id="jobseeker" class="tab-innr active">
-                                        <img class="mb-4 img-fluid" src="assets/images/job-seeker.png" alt="">
-                                        <h2>Find opportunities, not job postings</h2>
-                                        <p class="mb-0">Be yourself and showcase your talents. Be discovered by companies that value you. Create your future.</p>
-                                    </div>
-                                    <div id="employers" class="tab-innr">
-                                        <img class="mb-4 img-fluid" src="assets/images/employer.png" alt="">
-                                        <h2>Hire people, not profiles</h2>
-                                        <p class="mb-0">See your candidates, their personality, and suitability. Increase your probability of getting a successful hire on time with reduced cost.</p>
-                                    </div>
-                                    <div id="recruiters" class="tab-innr">
-                                        <img class="mb-4 img-fluid" src="assets/images/recruiter.png" alt="">
-                                        <h2>Recruit people, not resumes</h2>
-                                        <p class="mb-0">Extend your global reach and boost your access to real talent. Publish engaging job posts and discover limitless opportunities at your fingertips.</p>
-                                    </div>
-                                    <div id="influencers" class="tab-innr">
-                                        <img class="mb-4 img-fluid" src="assets/images/tab-1.png" alt="">
-                                        <h2>Teach people, unleash their potential</h2>
-                                        <p class="mb-0">Share your content with your targeted audience anytime, anywhere. Create new revenue streams with live interactive experiences.</p>
+                                    <div class="mbl-slidr">
+                                        <div id="jobseeker" class="tab-innr active">
+                                            <img class="mb-4 img-fluid" src="assets/images/job-seeker.png" alt="">
+                                            <h2>Find opportunities, not job postings</h2>
+                                            <p class="mb-0">Be yourself and showcase your talents. Be discovered by companies that value you. Create your future.</p>
+                                        </div>
+                                        <div id="employers" class="tab-innr">
+                                            <img class="mb-4 img-fluid" src="assets/images/employer.png" alt="">
+                                            <h2>Hire people, not profiles</h2>
+                                            <p class="mb-0">See your candidates, their personality, and suitability. Increase your probability of getting a successful hire on time with reduced cost.</p>
+                                        </div>
+                                        <div id="recruiters" class="tab-innr">
+                                            <img class="mb-4 img-fluid" src="assets/images/recruiter.png" alt="">
+                                            <h2>Recruit people, not resumes</h2>
+                                            <p class="mb-0">Extend your global reach and boost your access to real talent. Publish engaging job posts and discover limitless opportunities at your fingertips.</p>
+                                        </div>
+                                        <div id="influencers" class="tab-innr">
+                                            <img class="mb-4 img-fluid" src="assets/images/tab-1.png" alt="">
+                                            <h2>Teach people, unleash their potential</h2>
+                                            <p class="mb-0">Share your content with your targeted audience anytime, anywhere. Create new revenue streams with live interactive experiences.</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -425,7 +427,7 @@
                     <div class="cta-mn">
                         <h2 class=" animate" data-animation="fadeIn" data-duration="5">Get early access to the world’s first professional video live streaming network.</h2>
                     </div>
-                    <a href="#" class="btn btn-primary animate" data-animation="fadeIn" data-duration="5"><span>Qualify for Pilot Now</span></a>
+                    <a href="#" class="btn btn-primary popup-btn animate" data-animation="fadeIn" data-duration="5"><span>Qualify for Pilot Now</span></a>
                 </div>
             </div>
         </div>
@@ -521,10 +523,10 @@
             </div>
         </div>
         <div class="col-md-8">
-            <div class="bg-white px-4 pt-5 pb-2">
+            <div class="bg-white px-4 pt-3 pt-lg-5 pb-2">
                 <p>If you qualify, you will receive <strong>PREMIUM subscription for 6 months for FREE</strong>, when we launch! That’s savings of over $100, with access to video live streaming with co-hosting capabilities.</p>
             </div>
-            <div class="p-4 pr-5 pb-5">
+            <div class="p-3 p-lg-4 pr-3 pr-lg-5 pb-3 pb-lg-5">
                 <h6>To Qualify</h6>
                 <ul>
                     <li>1. You must be 18 years old</li>

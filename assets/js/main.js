@@ -490,3 +490,25 @@ $(window).bind('mousewheel DOMMouseScroll', function (event) {
         event.preventDefault();
     }
 });
+
+
+
+if ($(window).width() < 767) {
+    $('.tab-head ul').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        asNavFor: '.mbl-slidr',
+        infinite: false,
+    });
+
+    $('.mbl-slidr').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        asNavFor: '.tab-head ul',
+        dots: false,
+        arrows: true,
+        infinite: false,
+        focusOnSelect: true
+    });
+}

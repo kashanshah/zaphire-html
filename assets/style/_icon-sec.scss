@@ -94,3 +94,17 @@
     }
   }
 }
+
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 767px) {
+
+	.info-box{
+		.info-icon{
+			img {
+			    max-width: em(50);
+			}
+		}
+	}
+
+}

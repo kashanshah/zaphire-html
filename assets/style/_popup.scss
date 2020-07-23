@@ -10,7 +10,8 @@
 
 .popup-mn {
     position: fixed;
-    width: em(722);
+    width: 100%;
+    max-width: em(722);
     top: 0;
     left: 0;
     right: 0;
@@ -141,4 +142,51 @@
 		    font-weight: normal;
 		}
 	}	
+}
+
+
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 767px) {
+
+	.popup-mn {
+	    max-width: 90%;
+	    .left-side {
+		    display: none;
+		}
+		label {
+		    font-size: 13px;
+		}
+		.form-group{
+			input, select {
+			    font-size: 15px;
+			}
+		}
+		&.popup-01{
+			height: 100%;
+    		max-height: 80vh;
+			form {
+			    max-height: 76%;
+			}
+		}
+		&.popup-02 {
+		    max-height: 410px;
+		    p {
+			    font-size: em(16);
+			}
+			h6 {
+			    font-size: em(22);
+			}
+			ul{
+				li {
+				    font-size: em(16);
+				    margin: 0 0 0px;
+				}
+			}
+			label {
+			    font-size: em(16);
+			}
+		}
+	}
+
 }
