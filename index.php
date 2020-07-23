@@ -320,21 +320,31 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="box animate" data-animation="fadeIn" data-duration="5">
-                        <img class="img-fluid" src="assets/images/box-01.png" alt="">
+                    	<i class="bx1">
+                    		<img src="assets/images/a1.png" class="crcl c1" alt="">
+                    		<img src="assets/images/a2.png" class="crcl c2" alt="">
+                    	</i>
                         <h6>Career Fair</h6>
                         <p>Make it easier to attract global talent and find global opportunities</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="box animate" data-animation="fadeIn" data-duration="5">
-                        <img class="img-fluid" src="assets/images/box-02.png" alt="">
+                        <i class="bx2">
+                        	<img src="assets/images/a4.png" class="wavesun" alt="">
+                        	<img src="assets/images/a3.png" class="wave" alt="">
+                        </i>
                         <h6>Learning</h6>
                         <p>Upgrade learning experiences by engaging your audience in real-time</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="box animate" data-animation="fadeIn" data-duration="5">
-                        <img class="img-fluid" src="assets/images/box-03.png" alt="">
+                    	<i class="bx3">
+                    		<img src="assets/images/a7.png" class="wavesun" alt="">
+                        	<img src="assets/images/a5.png" class="line1" alt="">
+                        	<img src="assets/images/a6.png" class="line2" alt="">
+                        </i>
                         <h6>Events</h6>
                         <p>Broaden your reach, increase attendance rate and audience retention</p>
                     </div>
