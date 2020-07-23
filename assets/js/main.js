@@ -321,17 +321,24 @@ $(document).ready(function () {
 
     $('.popup-btn').click(function(){
         $('.blackout').fadeIn();
-        $('.popup-01').fadeIn();
+        $('.popup-01').fadeIn().addClass('active');
     });
 
     $('.popup-mn .btn.btn-primary').click(function(){
         $('.popup-01').fadeOut();
         $('.popup-02').fadeIn();
+        setTimeout(function(){ 
+            $('.popup-01').removeClass('active');
+            $('.popup-02').addClass('active');
+        }, 1000);
     });
 
     $('.popup-btn-close').click(function(){
-        $('.blackout').fadeOut();
-        $('.popup-mn').fadeOut();
+        $('.popup-mn').removeClass('active');
+        setTimeout(function(){ 
+            $('.blackout').fadeOut();
+            $('.popup-mn').fadeOut();
+        }, 3000);
     });
 
    if (newsLetterForm.length) {

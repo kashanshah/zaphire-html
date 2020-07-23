@@ -11,7 +11,7 @@
 .popup-mn {
     position: fixed;
     width: 100%;
-    max-width: em(722);
+    height: 100%;
     top: 0;
     left: 0;
     right: 0;
@@ -19,6 +19,23 @@
     z-index: 2;
     background: #f9f9ff;
     margin: auto;
+    &:before {
+    	content: "";
+    	width: 100%;
+    	height: 100%;
+    	position: absolute;
+    	left: 0;
+    	top: 0;
+    	z-index: 11;
+    	transition: all 1s 0.6s ease;
+    }
+    &.active{
+    	&:before{
+    		left: initial;
+    		right: 0px;
+    		width: 0%;
+    	}
+    }
     .close-btn {
 	    position: relative;
 	    width: 40px;
@@ -95,18 +112,23 @@
 	    letter-spacing: em(1);
 	}
 	&.popup-01{
-		max-height: em(610);
-    	overflow: hidden;
+    	overflow-x: auto;
+    	&:before{
+    		background: #97c253;
+    	}
 		.left-side {
 		    background: url(../images/popup-01.png) no-repeat bottom center #97c253;
 		}
 		form{
-			max-height: 94%;
+			max-height: 100%;
     		overflow-x: auto;
 		}
 	}
 	&.popup-02{
-		max-height: em(500);
+		max-height: 100%;
+		&:before{
+			background: #6253df;
+    	}
 		.left-side {
 		    background: url(../images/popup-02.png) no-repeat bottom center #6253df;
 		}
@@ -150,7 +172,6 @@
 @media (max-width: 767px) {
 
 	.popup-mn {
-	    max-width: 90%;
 	    .left-side {
 		    display: none;
 		}
@@ -164,13 +185,8 @@
 		}
 		&.popup-01{
 			height: 100%;
-    		max-height: 80vh;
-			form {
-			    max-height: 76%;
-			}
 		}
 		&.popup-02 {
-		    max-height: 410px;
 		    p {
 			    font-size: em(16);
 			}

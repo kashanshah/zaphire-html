@@ -440,14 +440,14 @@
 
 <div class="popup-mn popup-01" style="display: none;">
     <a href="javascript:;" class="close-btn popup-btn-close"></a>
-    <div class="row no-gutters">
-        <div class="col-md-4">
+    <div class="row no-gutters h-100">
+        <div class="col-md-3">
             <div class="left-side px-4 py-5 h-100 text-center">
                 <h5>Congratulations!</h5>
                 <p>You qualify for the Zaphire Live Pilot. To finish your enrollment, please share details about yourself:</p>
             </div>
         </div>
-        <div class="col-md-8 px-4 py-5">
+        <div class="col-md-9 px-4 py-5">
             <form action="javascript:;">
                 <div class="form-group">
                     <label for="whtshouldcall">WHAT SHOULD WE CALL YOU?*</label>
@@ -516,13 +516,13 @@
 
 <div class="popup-mn popup-02" style="display: none;">
     <a href="javascript:;" class="close-btn popup-btn-close"></a>
-    <div class="row no-gutters">
-        <div class="col-md-4">
+    <div class="row no-gutters h-100">
+        <div class="col-md-3">
             <div class="left-side px-4 py-5 h-100 text-center">
                 <h5>Thank you for your interest in being part of the 2 week pilot. <br>We can’t wait to</h5>
             </div>
         </div>
-        <div class="col-md-8">
+        <div class="col-md-9">
             <div class="bg-white px-4 pt-3 pt-lg-5 pb-2">
                 <p>If you qualify, you will receive <strong>PREMIUM subscription for 6 months for FREE</strong>, when we launch! That’s savings of over $100, with access to video live streaming with co-hosting capabilities.</p>
             </div>
