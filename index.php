@@ -19,7 +19,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-7">
-                    <h1>Professional Connections With Real People In Real-Time</h1>
+                    <h1>Professional Connections <br class="d-none d-lg-block">With Real People <br class="d-none d-lg-block">In Real-Time</h1>
                     <p>Find, share, create opportunities anywhere, anytime with live interactive video.</p>
                     <div>
                         <a href="#" class="btn btn-primary popup-btn"><span>Qualify For Pilot</span></a>
@@ -271,7 +271,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h1 class="mb-5 text-center animate" data-animation="fadeIn" data-duration="5">Professional Video <br class="d-none d-lg-block">Live Streaming For Everyone</h1>
+                    <h1 class="mb-5 text-center animate" data-animation="fadeIn" data-duration="5">Professional Live Interactive <br class="d-none d-lg-block">Video Streaming For Everyone</h1>
                     <div class="tab-mn">
                         <div class="tab-head animate" data-animation="fadeIn" data-duration="5">
                             <ul>
@@ -353,40 +353,6 @@
         </div>
     </section>
 
-	<section class="content-sec">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-6 order-md-1 animate" data-animation="fadeIn" data-duration="5">
-                    <img src="assets/images/img-4.png" alt="" class="img-fluid">
-                    <ul class="circle-ul circle-v2">
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </div>
-                <div class="col-md-6">
-                    <h2 class="animate" data-animation="fadeIn" data-duration="5">Reach over 1 million</h2>
-                    <p class="animate" data-animation="fadeIn" data-duration="5">Connect with audience at scale in real-time. Discover new and exciting ways to connect with opportunities.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="content-sec">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-6 order-md-0 text-md-right animate" data-animation="fadeIn" data-duration="5">
-                    <img src="assets/images/img-5.png" alt="" class="img-fluid">
-                </div>
-                <div class="col-md-6">
-                    <h2 class="animate" data-animation="fadeIn" data-duration="5">Co-host up to 4</h2>
-                    <p class="animate" data-animation="fadeIn" data-duration="5">Invite your co-workers, friends, or live audience to share the stage with you in real-time. Increase audience engagement and improve interactivity.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section class="content-sec">
         <div class="container">
             <div class="row align-items-center">
@@ -406,7 +372,42 @@
         </div>
     </section>
 
-    <section class="content-sec">
+    <section class="content-sec pt-lg-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 order-md-0 text-md-right animate" data-animation="fadeIn" data-duration="5">
+                    <img src="assets/images/img-5.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-6">
+                    <br class="d-none d-lg-block">
+                    <h2 class="animate" data-animation="fadeIn" data-duration="5">Co-host up to 4</h2>
+                    <p class="animate" data-animation="fadeIn" data-duration="5">Invite your co-workers, friends, or live audience to share the stage with you in real-time. Increase viewer engagement and improve interactivity.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+	<section class="content-sec pt-lg-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 order-md-1 animate" data-animation="fadeIn" data-duration="5">
+                    <img src="assets/images/img-4.png" alt="" class="img-fluid">
+                    <ul class="circle-ul circle-v2">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h2 class="animate" data-animation="fadeIn" data-duration="5">Reach over 1 million</h2>
+                    <p class="animate" data-animation="fadeIn" data-duration="5">Connect with audience at scale in real-time. Discover new and exciting ways to connect with opportunities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-sec p-lg-4">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6 order-md-0 text-md-right animate" data-animation="fadeIn" data-duration="5"><img src="assets/images/img-7.png" alt="" class="img-fluid"></div>
@@ -435,7 +436,7 @@
             <div class="row">
                 <div class="col-md-12 text-center animate" data-animation="fadeIn" data-duration="5">
                     <div class="cta-mn">
-                        <h2 class=" animate" data-animation="fadeIn" data-duration="5">Get early access to the world’s first professional video live streaming network.</h2>
+                        <h2 class=" animate" data-animation="fadeIn" data-duration="5">Get early access to the world’s first professional live interactive video streaming network</h2>
                     </div>
                     <a href="#" class="btn btn-primary popup-btn animate" data-animation="fadeIn" data-duration="5"><span>Qualify for Pilot Now</span></a>
                 </div>
@@ -457,7 +458,7 @@
                 <p>You qualify for the Zaphire Live Pilot. To finish your enrollment, please share details about yourself:</p>
             </div>
         </div>
-        <div class="col-md-9 px-4 py-5">
+        <div class="col-md-9 px-4 py-5 overflow-auto h-100">
             <form action="javascript:;">
                 <div class="form-group">
                     <label for="whtshouldcall">WHAT SHOULD WE CALL YOU?*</label>

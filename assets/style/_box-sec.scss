@@ -59,16 +59,18 @@
 	    		    position: absolute;
 				    bottom: 0px;
 				    left: 40px;
+				    width: 78px;
 				    animation: line 6s infinite;	
 	    	}
 	    	.line2{
 	    		position: absolute;
 			    bottom: 0px;
 			    left: 80px;
-			    animation: line1 6s infinite;	
+			    width: 78px;
+			    animation: line1 6s 1s infinite;	
 	    	}
 	    	.wavesun{
-	    		animation: wavesun 8s infinite;	
+	    		animation: wavesun 8s 1s infinite;	
 	    	}
 	    }
 	}

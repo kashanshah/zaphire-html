@@ -8,6 +8,7 @@
   overflow: hidden;
   h1{
     color: $white;
+    font-size: em(49);
     /* Making it easy for your value to be seen. */
   }
   p{
@@ -75,6 +76,8 @@
   margin: 0 em(40);
   max-height: em(585);
   border-radius: em(30);
+  position: relative;
+  left: em(-20);
 }
 
 @keyframes wave {
@@ -110,6 +113,7 @@
     }
     .banner-video {
       margin: 40px 0 0;
+      left: em(0);
     }
 }
 

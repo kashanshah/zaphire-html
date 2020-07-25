@@ -187,10 +187,12 @@ section.tab-sec {
 	.mbl-slidr{
 		button.slick-arrow {
 		    position: absolute;
-		    bottom: -46px;
+		    bottom: -86px;
 		    top: initial;
 		    border-radius: 100%;
 		    background: transparent;
+		    width: 44px;
+    		height: 53px;
 		    &.slick-next {
 			    right: 80px;
 			}

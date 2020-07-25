@@ -88,15 +88,15 @@
 	    font-weight: 600;
 	}
 	label {
-	    font-size: em(9);
+	    font-size: em(16);
 	    font-weight: 700;
 	    color: rgba(0,0,0,0.9);
 	    margin: 0 0 0;
 	}
 	.form-group{
-		margin: 0 0 em(12);
+		margin: 0 0 em(30);
 		input, select{
-			font-size: em(12);
+			font-size: em(20);
 			border: 0px;
 			border-bottom: solid 1px #d0d0d0;
 			padding: 0 0;
@@ -104,7 +104,7 @@
 		}
 	}
 	.btn.btn-primary {
-	    font-size: em(12);
+	    font-size: em(16);
 	    border-radius: em(40);
 	    color: #000;
 	    font-weight: 500;
@@ -133,7 +133,7 @@
 		    background: url(../images/popup-02.png) no-repeat bottom center #6253df;
 		}
 		p {
-		    font-size: em(12);
+		    font-size: em(18);
 		    color: #707070;
 		    font-weight: 300;
 		    line-height: 2;
@@ -142,7 +142,7 @@
 			}
 		}
 		h6 {
-		    font-size: em(14);
+		    font-size: em(22);
 		    margin: 0 0 em(14);
 		}
 		ul {
@@ -153,13 +153,13 @@
 			    padding: 0 0 0 em(10);
 			    margin: 0 0 em(8);
 			    color: #707070;
-			    font-size: em(12);
+			    font-size: em(16);
 			    line-height: 1.6;
 			}
 		}
 		label{
 			color: #707070;
-		    font-size: em(12);
+		    font-size: em(16);
 		    line-height: 1.6;
 		    font-weight: normal;
 		}
